@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prop="http://somewhere/properties#">
+  <rdf:Description rdf:about="http://somewhere/Persona_1000_8411">
+    <prop:hasF>F 1000_8411</prop:hasF>
+    <prop:hasE>E 1000_8411</prop:hasE>
+    <prop:hasD>D 1000_8411</prop:hasD>
+    <prop:hasC>C 1000_8411</prop:hasC>
+    <prop:hasB>B 1000_8411</prop:hasB>
+    <prop:hasA>A 1000_8411</prop:hasA>
+  </rdf:Description>
+</RDF>  
