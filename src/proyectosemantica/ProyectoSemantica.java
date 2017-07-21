@@ -18,18 +18,22 @@ public class ProyectoSemantica {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-       int  nExperimentos  = 1000 ;//Integer.parseInt(args[0]);
+       int  nExperimentos  =  Integer.parseInt(args[0]);
        
        System.out.println("Directorio "+System.getProperty("user.dir")); 
       
        CreaRDF rdf = new CreaRDF();
        rdf.crear(nExperimentos);
        
+       CrearOntlogy ont =  new CrearOntlogy(); 
+       ont.crear(nExperimentos);
     
         // cargue de una grafica  :  
       LinearChart chart = new LinearChart(
          "Tiempo VS Carga " );
-      chart.datos = rdf.datos;
+      chart.datosRDF = rdf.datos;
+      chart.datosOWL = ont.datos;
+      
       chart.GenerarLinearChart( "Tiempo VS Carga ","Tiempo VS Carga");
 
       chart.pack( );

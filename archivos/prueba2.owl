@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#worksAt -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#worksAt"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#listOfPeople"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Worker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Worker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#listOfPeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#listOfPeople"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Apple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Apple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Jhon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Jhon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Martha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Martha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Terry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Terry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Worker"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

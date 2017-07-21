@@ -135,7 +135,7 @@ public class CreaRDF {
                 dato.setExperimento(i);
                 dato.setTiempo(tiempo); 
                 datos.add(dato);
-                System.out.println("Experimento "+i+" Carga "+carga+" tiempo "+ tiempo); //Mostramos en pantalla el tiempo de ejecución en milisegundos
+                System.out.println("Experimento RDF  "+i+" Carga "+carga+" tiempo "+ tiempo); //Mostramos en pantalla el tiempo de ejecución en milisegundos
                 
             }
             // writing RDF

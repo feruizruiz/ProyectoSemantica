@@ -1,12 +1,812 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:prop="http://somewhere/properties#">
-  <rdf:Description rdf:about="http://somewhere/Persona_1000_8411">
-    <prop:hasF>F 1000_8411</prop:hasF>
-    <prop:hasE>E 1000_8411</prop:hasE>
-    <prop:hasD>D 1000_8411</prop:hasD>
-    <prop:hasC>C 1000_8411</prop:hasC>
-    <prop:hasB>B 1000_8411</prop:hasB>
-    <prop:hasA>A 1000_8411</prop:hasA>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_18">
+    <prop:hasF>F 10_18</prop:hasF>
+    <prop:hasE>E 10_18</prop:hasE>
+    <prop:hasD>D 10_18</prop:hasD>
+    <prop:hasC>C 10_18</prop:hasC>
+    <prop:hasB>B 10_18</prop:hasB>
+    <prop:hasA>A 10_18</prop:hasA>
   </rdf:Description>
-</RDF>  
+  <rdf:Description rdf:about="http://somewhere/Persona_10_58">
+    <prop:hasF>F 10_58</prop:hasF>
+    <prop:hasE>E 10_58</prop:hasE>
+    <prop:hasD>D 10_58</prop:hasD>
+    <prop:hasC>C 10_58</prop:hasC>
+    <prop:hasB>B 10_58</prop:hasB>
+    <prop:hasA>A 10_58</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_46">
+    <prop:hasF>F 10_46</prop:hasF>
+    <prop:hasE>E 10_46</prop:hasE>
+    <prop:hasD>D 10_46</prop:hasD>
+    <prop:hasC>C 10_46</prop:hasC>
+    <prop:hasB>B 10_46</prop:hasB>
+    <prop:hasA>A 10_46</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_100">
+    <prop:hasF>F 10_100</prop:hasF>
+    <prop:hasE>E 10_100</prop:hasE>
+    <prop:hasD>D 10_100</prop:hasD>
+    <prop:hasC>C 10_100</prop:hasC>
+    <prop:hasB>B 10_100</prop:hasB>
+    <prop:hasA>A 10_100</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_45">
+    <prop:hasF>F 10_45</prop:hasF>
+    <prop:hasE>E 10_45</prop:hasE>
+    <prop:hasD>D 10_45</prop:hasD>
+    <prop:hasC>C 10_45</prop:hasC>
+    <prop:hasB>B 10_45</prop:hasB>
+    <prop:hasA>A 10_45</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_6">
+    <prop:hasF>F 10_6</prop:hasF>
+    <prop:hasE>E 10_6</prop:hasE>
+    <prop:hasD>D 10_6</prop:hasD>
+    <prop:hasC>C 10_6</prop:hasC>
+    <prop:hasB>B 10_6</prop:hasB>
+    <prop:hasA>A 10_6</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_33">
+    <prop:hasF>F 10_33</prop:hasF>
+    <prop:hasE>E 10_33</prop:hasE>
+    <prop:hasD>D 10_33</prop:hasD>
+    <prop:hasC>C 10_33</prop:hasC>
+    <prop:hasB>B 10_33</prop:hasB>
+    <prop:hasA>A 10_33</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_21">
+    <prop:hasF>F 10_21</prop:hasF>
+    <prop:hasE>E 10_21</prop:hasE>
+    <prop:hasD>D 10_21</prop:hasD>
+    <prop:hasC>C 10_21</prop:hasC>
+    <prop:hasB>B 10_21</prop:hasB>
+    <prop:hasA>A 10_21</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_97">
+    <prop:hasF>F 10_97</prop:hasF>
+    <prop:hasE>E 10_97</prop:hasE>
+    <prop:hasD>D 10_97</prop:hasD>
+    <prop:hasC>C 10_97</prop:hasC>
+    <prop:hasB>B 10_97</prop:hasB>
+    <prop:hasA>A 10_97</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_85">
+    <prop:hasF>F 10_85</prop:hasF>
+    <prop:hasE>E 10_85</prop:hasE>
+    <prop:hasD>D 10_85</prop:hasD>
+    <prop:hasC>C 10_85</prop:hasC>
+    <prop:hasB>B 10_85</prop:hasB>
+    <prop:hasA>A 10_85</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_73">
+    <prop:hasF>F 10_73</prop:hasF>
+    <prop:hasE>E 10_73</prop:hasE>
+    <prop:hasD>D 10_73</prop:hasD>
+    <prop:hasC>C 10_73</prop:hasC>
+    <prop:hasB>B 10_73</prop:hasB>
+    <prop:hasA>A 10_73</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_61">
+    <prop:hasF>F 10_61</prop:hasF>
+    <prop:hasE>E 10_61</prop:hasE>
+    <prop:hasD>D 10_61</prop:hasD>
+    <prop:hasC>C 10_61</prop:hasC>
+    <prop:hasB>B 10_61</prop:hasB>
+    <prop:hasA>A 10_61</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_19">
+    <prop:hasF>F 10_19</prop:hasF>
+    <prop:hasE>E 10_19</prop:hasE>
+    <prop:hasD>D 10_19</prop:hasD>
+    <prop:hasC>C 10_19</prop:hasC>
+    <prop:hasB>B 10_19</prop:hasB>
+    <prop:hasA>A 10_19</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_59">
+    <prop:hasF>F 10_59</prop:hasF>
+    <prop:hasE>E 10_59</prop:hasE>
+    <prop:hasD>D 10_59</prop:hasD>
+    <prop:hasC>C 10_59</prop:hasC>
+    <prop:hasB>B 10_59</prop:hasB>
+    <prop:hasA>A 10_59</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_47">
+    <prop:hasF>F 10_47</prop:hasF>
+    <prop:hasE>E 10_47</prop:hasE>
+    <prop:hasD>D 10_47</prop:hasD>
+    <prop:hasC>C 10_47</prop:hasC>
+    <prop:hasB>B 10_47</prop:hasB>
+    <prop:hasA>A 10_47</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_35">
+    <prop:hasF>F 10_35</prop:hasF>
+    <prop:hasE>E 10_35</prop:hasE>
+    <prop:hasD>D 10_35</prop:hasD>
+    <prop:hasC>C 10_35</prop:hasC>
+    <prop:hasB>B 10_35</prop:hasB>
+    <prop:hasA>A 10_35</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_90">
+    <prop:hasF>F 10_90</prop:hasF>
+    <prop:hasE>E 10_90</prop:hasE>
+    <prop:hasD>D 10_90</prop:hasD>
+    <prop:hasC>C 10_90</prop:hasC>
+    <prop:hasB>B 10_90</prop:hasB>
+    <prop:hasA>A 10_90</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_34">
+    <prop:hasF>F 10_34</prop:hasF>
+    <prop:hasE>E 10_34</prop:hasE>
+    <prop:hasD>D 10_34</prop:hasD>
+    <prop:hasC>C 10_34</prop:hasC>
+    <prop:hasB>B 10_34</prop:hasB>
+    <prop:hasA>A 10_34</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_7">
+    <prop:hasF>F 10_7</prop:hasF>
+    <prop:hasE>E 10_7</prop:hasE>
+    <prop:hasD>D 10_7</prop:hasD>
+    <prop:hasC>C 10_7</prop:hasC>
+    <prop:hasB>B 10_7</prop:hasB>
+    <prop:hasA>A 10_7</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_22">
+    <prop:hasF>F 10_22</prop:hasF>
+    <prop:hasE>E 10_22</prop:hasE>
+    <prop:hasD>D 10_22</prop:hasD>
+    <prop:hasC>C 10_22</prop:hasC>
+    <prop:hasB>B 10_22</prop:hasB>
+    <prop:hasA>A 10_22</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_98">
+    <prop:hasF>F 10_98</prop:hasF>
+    <prop:hasE>E 10_98</prop:hasE>
+    <prop:hasD>D 10_98</prop:hasD>
+    <prop:hasC>C 10_98</prop:hasC>
+    <prop:hasB>B 10_98</prop:hasB>
+    <prop:hasA>A 10_98</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_10">
+    <prop:hasF>F 10_10</prop:hasF>
+    <prop:hasE>E 10_10</prop:hasE>
+    <prop:hasD>D 10_10</prop:hasD>
+    <prop:hasC>C 10_10</prop:hasC>
+    <prop:hasB>B 10_10</prop:hasB>
+    <prop:hasA>A 10_10</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_86">
+    <prop:hasF>F 10_86</prop:hasF>
+    <prop:hasE>E 10_86</prop:hasE>
+    <prop:hasD>D 10_86</prop:hasD>
+    <prop:hasC>C 10_86</prop:hasC>
+    <prop:hasB>B 10_86</prop:hasB>
+    <prop:hasA>A 10_86</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_74">
+    <prop:hasF>F 10_74</prop:hasF>
+    <prop:hasE>E 10_74</prop:hasE>
+    <prop:hasD>D 10_74</prop:hasD>
+    <prop:hasC>C 10_74</prop:hasC>
+    <prop:hasB>B 10_74</prop:hasB>
+    <prop:hasA>A 10_74</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_62">
+    <prop:hasF>F 10_62</prop:hasF>
+    <prop:hasE>E 10_62</prop:hasE>
+    <prop:hasD>D 10_62</prop:hasD>
+    <prop:hasC>C 10_62</prop:hasC>
+    <prop:hasB>B 10_62</prop:hasB>
+    <prop:hasA>A 10_62</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_50">
+    <prop:hasF>F 10_50</prop:hasF>
+    <prop:hasE>E 10_50</prop:hasE>
+    <prop:hasD>D 10_50</prop:hasD>
+    <prop:hasC>C 10_50</prop:hasC>
+    <prop:hasB>B 10_50</prop:hasB>
+    <prop:hasA>A 10_50</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_28">
+    <prop:hasF>F 10_28</prop:hasF>
+    <prop:hasE>E 10_28</prop:hasE>
+    <prop:hasD>D 10_28</prop:hasD>
+    <prop:hasC>C 10_28</prop:hasC>
+    <prop:hasB>B 10_28</prop:hasB>
+    <prop:hasA>A 10_28</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_16">
+    <prop:hasF>F 10_16</prop:hasF>
+    <prop:hasE>E 10_16</prop:hasE>
+    <prop:hasD>D 10_16</prop:hasD>
+    <prop:hasC>C 10_16</prop:hasC>
+    <prop:hasB>B 10_16</prop:hasB>
+    <prop:hasA>A 10_16</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_68">
+    <prop:hasF>F 10_68</prop:hasF>
+    <prop:hasE>E 10_68</prop:hasE>
+    <prop:hasD>D 10_68</prop:hasD>
+    <prop:hasC>C 10_68</prop:hasC>
+    <prop:hasB>B 10_68</prop:hasB>
+    <prop:hasA>A 10_68</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_67">
+    <prop:hasF>F 10_67</prop:hasF>
+    <prop:hasE>E 10_67</prop:hasE>
+    <prop:hasD>D 10_67</prop:hasD>
+    <prop:hasC>C 10_67</prop:hasC>
+    <prop:hasB>B 10_67</prop:hasB>
+    <prop:hasA>A 10_67</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_55">
+    <prop:hasF>F 10_55</prop:hasF>
+    <prop:hasE>E 10_55</prop:hasE>
+    <prop:hasD>D 10_55</prop:hasD>
+    <prop:hasC>C 10_55</prop:hasC>
+    <prop:hasB>B 10_55</prop:hasB>
+    <prop:hasA>A 10_55</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_43">
+    <prop:hasF>F 10_43</prop:hasF>
+    <prop:hasE>E 10_43</prop:hasE>
+    <prop:hasD>D 10_43</prop:hasD>
+    <prop:hasC>C 10_43</prop:hasC>
+    <prop:hasB>B 10_43</prop:hasB>
+    <prop:hasA>A 10_43</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_4">
+    <prop:hasF>F 10_4</prop:hasF>
+    <prop:hasE>E 10_4</prop:hasE>
+    <prop:hasD>D 10_4</prop:hasD>
+    <prop:hasC>C 10_4</prop:hasC>
+    <prop:hasB>B 10_4</prop:hasB>
+    <prop:hasA>A 10_4</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_31">
+    <prop:hasF>F 10_31</prop:hasF>
+    <prop:hasE>E 10_31</prop:hasE>
+    <prop:hasD>D 10_31</prop:hasD>
+    <prop:hasC>C 10_31</prop:hasC>
+    <prop:hasB>B 10_31</prop:hasB>
+    <prop:hasA>A 10_31</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_95">
+    <prop:hasF>F 10_95</prop:hasF>
+    <prop:hasE>E 10_95</prop:hasE>
+    <prop:hasD>D 10_95</prop:hasD>
+    <prop:hasC>C 10_95</prop:hasC>
+    <prop:hasB>B 10_95</prop:hasB>
+    <prop:hasA>A 10_95</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_83">
+    <prop:hasF>F 10_83</prop:hasF>
+    <prop:hasE>E 10_83</prop:hasE>
+    <prop:hasD>D 10_83</prop:hasD>
+    <prop:hasC>C 10_83</prop:hasC>
+    <prop:hasB>B 10_83</prop:hasB>
+    <prop:hasA>A 10_83</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_71">
+    <prop:hasF>F 10_71</prop:hasF>
+    <prop:hasE>E 10_71</prop:hasE>
+    <prop:hasD>D 10_71</prop:hasD>
+    <prop:hasC>C 10_71</prop:hasC>
+    <prop:hasB>B 10_71</prop:hasB>
+    <prop:hasA>A 10_71</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_29">
+    <prop:hasF>F 10_29</prop:hasF>
+    <prop:hasE>E 10_29</prop:hasE>
+    <prop:hasD>D 10_29</prop:hasD>
+    <prop:hasC>C 10_29</prop:hasC>
+    <prop:hasB>B 10_29</prop:hasB>
+    <prop:hasA>A 10_29</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_17">
+    <prop:hasF>F 10_17</prop:hasF>
+    <prop:hasE>E 10_17</prop:hasE>
+    <prop:hasD>D 10_17</prop:hasD>
+    <prop:hasC>C 10_17</prop:hasC>
+    <prop:hasB>B 10_17</prop:hasB>
+    <prop:hasA>A 10_17</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_69">
+    <prop:hasF>F 10_69</prop:hasF>
+    <prop:hasE>E 10_69</prop:hasE>
+    <prop:hasD>D 10_69</prop:hasD>
+    <prop:hasC>C 10_69</prop:hasC>
+    <prop:hasB>B 10_69</prop:hasB>
+    <prop:hasA>A 10_69</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_57">
+    <prop:hasF>F 10_57</prop:hasF>
+    <prop:hasE>E 10_57</prop:hasE>
+    <prop:hasD>D 10_57</prop:hasD>
+    <prop:hasC>C 10_57</prop:hasC>
+    <prop:hasB>B 10_57</prop:hasB>
+    <prop:hasA>A 10_57</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_101">
+    <prop:hasF>F 10_101</prop:hasF>
+    <prop:hasE>E 10_101</prop:hasE>
+    <prop:hasD>D 10_101</prop:hasD>
+    <prop:hasC>C 10_101</prop:hasC>
+    <prop:hasB>B 10_101</prop:hasB>
+    <prop:hasA>A 10_101</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_56">
+    <prop:hasF>F 10_56</prop:hasF>
+    <prop:hasE>E 10_56</prop:hasE>
+    <prop:hasD>D 10_56</prop:hasD>
+    <prop:hasC>C 10_56</prop:hasC>
+    <prop:hasB>B 10_56</prop:hasB>
+    <prop:hasA>A 10_56</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_44">
+    <prop:hasF>F 10_44</prop:hasF>
+    <prop:hasE>E 10_44</prop:hasE>
+    <prop:hasD>D 10_44</prop:hasD>
+    <prop:hasC>C 10_44</prop:hasC>
+    <prop:hasB>B 10_44</prop:hasB>
+    <prop:hasA>A 10_44</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_32">
+    <prop:hasF>F 10_32</prop:hasF>
+    <prop:hasE>E 10_32</prop:hasE>
+    <prop:hasD>D 10_32</prop:hasD>
+    <prop:hasC>C 10_32</prop:hasC>
+    <prop:hasB>B 10_32</prop:hasB>
+    <prop:hasA>A 10_32</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_20">
+    <prop:hasF>F 10_20</prop:hasF>
+    <prop:hasE>E 10_20</prop:hasE>
+    <prop:hasD>D 10_20</prop:hasD>
+    <prop:hasC>C 10_20</prop:hasC>
+    <prop:hasB>B 10_20</prop:hasB>
+    <prop:hasA>A 10_20</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_5">
+    <prop:hasF>F 10_5</prop:hasF>
+    <prop:hasE>E 10_5</prop:hasE>
+    <prop:hasD>D 10_5</prop:hasD>
+    <prop:hasC>C 10_5</prop:hasC>
+    <prop:hasB>B 10_5</prop:hasB>
+    <prop:hasA>A 10_5</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_96">
+    <prop:hasF>F 10_96</prop:hasF>
+    <prop:hasE>E 10_96</prop:hasE>
+    <prop:hasD>D 10_96</prop:hasD>
+    <prop:hasC>C 10_96</prop:hasC>
+    <prop:hasB>B 10_96</prop:hasB>
+    <prop:hasA>A 10_96</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_84">
+    <prop:hasF>F 10_84</prop:hasF>
+    <prop:hasE>E 10_84</prop:hasE>
+    <prop:hasD>D 10_84</prop:hasD>
+    <prop:hasC>C 10_84</prop:hasC>
+    <prop:hasB>B 10_84</prop:hasB>
+    <prop:hasA>A 10_84</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_72">
+    <prop:hasF>F 10_72</prop:hasF>
+    <prop:hasE>E 10_72</prop:hasE>
+    <prop:hasD>D 10_72</prop:hasD>
+    <prop:hasC>C 10_72</prop:hasC>
+    <prop:hasB>B 10_72</prop:hasB>
+    <prop:hasA>A 10_72</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_60">
+    <prop:hasF>F 10_60</prop:hasF>
+    <prop:hasE>E 10_60</prop:hasE>
+    <prop:hasD>D 10_60</prop:hasD>
+    <prop:hasC>C 10_60</prop:hasC>
+    <prop:hasB>B 10_60</prop:hasB>
+    <prop:hasA>A 10_60</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_38">
+    <prop:hasF>F 10_38</prop:hasF>
+    <prop:hasE>E 10_38</prop:hasE>
+    <prop:hasD>D 10_38</prop:hasD>
+    <prop:hasC>C 10_38</prop:hasC>
+    <prop:hasB>B 10_38</prop:hasB>
+    <prop:hasA>A 10_38</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_26">
+    <prop:hasF>F 10_26</prop:hasF>
+    <prop:hasE>E 10_26</prop:hasE>
+    <prop:hasD>D 10_26</prop:hasD>
+    <prop:hasC>C 10_26</prop:hasC>
+    <prop:hasB>B 10_26</prop:hasB>
+    <prop:hasA>A 10_26</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_14">
+    <prop:hasF>F 10_14</prop:hasF>
+    <prop:hasE>E 10_14</prop:hasE>
+    <prop:hasD>D 10_14</prop:hasD>
+    <prop:hasC>C 10_14</prop:hasC>
+    <prop:hasB>B 10_14</prop:hasB>
+    <prop:hasA>A 10_14</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_81">
+    <prop:hasF>F 10_81</prop:hasF>
+    <prop:hasE>E 10_81</prop:hasE>
+    <prop:hasD>D 10_81</prop:hasD>
+    <prop:hasC>C 10_81</prop:hasC>
+    <prop:hasB>B 10_81</prop:hasB>
+    <prop:hasA>A 10_81</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_89">
+    <prop:hasF>F 10_89</prop:hasF>
+    <prop:hasE>E 10_89</prop:hasE>
+    <prop:hasD>D 10_89</prop:hasD>
+    <prop:hasC>C 10_89</prop:hasC>
+    <prop:hasB>B 10_89</prop:hasB>
+    <prop:hasA>A 10_89</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_77">
+    <prop:hasF>F 10_77</prop:hasF>
+    <prop:hasE>E 10_77</prop:hasE>
+    <prop:hasD>D 10_77</prop:hasD>
+    <prop:hasC>C 10_77</prop:hasC>
+    <prop:hasB>B 10_77</prop:hasB>
+    <prop:hasA>A 10_77</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_65">
+    <prop:hasF>F 10_65</prop:hasF>
+    <prop:hasE>E 10_65</prop:hasE>
+    <prop:hasD>D 10_65</prop:hasD>
+    <prop:hasC>C 10_65</prop:hasC>
+    <prop:hasB>B 10_65</prop:hasB>
+    <prop:hasA>A 10_65</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_53">
+    <prop:hasF>F 10_53</prop:hasF>
+    <prop:hasE>E 10_53</prop:hasE>
+    <prop:hasD>D 10_53</prop:hasD>
+    <prop:hasC>C 10_53</prop:hasC>
+    <prop:hasB>B 10_53</prop:hasB>
+    <prop:hasA>A 10_53</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_41">
+    <prop:hasF>F 10_41</prop:hasF>
+    <prop:hasE>E 10_41</prop:hasE>
+    <prop:hasD>D 10_41</prop:hasD>
+    <prop:hasC>C 10_41</prop:hasC>
+    <prop:hasB>B 10_41</prop:hasB>
+    <prop:hasA>A 10_41</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_2">
+    <prop:hasF>F 10_2</prop:hasF>
+    <prop:hasE>E 10_2</prop:hasE>
+    <prop:hasD>D 10_2</prop:hasD>
+    <prop:hasC>C 10_2</prop:hasC>
+    <prop:hasB>B 10_2</prop:hasB>
+    <prop:hasA>A 10_2</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_93">
+    <prop:hasF>F 10_93</prop:hasF>
+    <prop:hasE>E 10_93</prop:hasE>
+    <prop:hasD>D 10_93</prop:hasD>
+    <prop:hasC>C 10_93</prop:hasC>
+    <prop:hasB>B 10_93</prop:hasB>
+    <prop:hasA>A 10_93</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_39">
+    <prop:hasF>F 10_39</prop:hasF>
+    <prop:hasE>E 10_39</prop:hasE>
+    <prop:hasD>D 10_39</prop:hasD>
+    <prop:hasC>C 10_39</prop:hasC>
+    <prop:hasB>B 10_39</prop:hasB>
+    <prop:hasA>A 10_39</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_27">
+    <prop:hasF>F 10_27</prop:hasF>
+    <prop:hasE>E 10_27</prop:hasE>
+    <prop:hasD>D 10_27</prop:hasD>
+    <prop:hasC>C 10_27</prop:hasC>
+    <prop:hasB>B 10_27</prop:hasB>
+    <prop:hasA>A 10_27</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_15">
+    <prop:hasF>F 10_15</prop:hasF>
+    <prop:hasE>E 10_15</prop:hasE>
+    <prop:hasD>D 10_15</prop:hasD>
+    <prop:hasC>C 10_15</prop:hasC>
+    <prop:hasB>B 10_15</prop:hasB>
+    <prop:hasA>A 10_15</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_79">
+    <prop:hasF>F 10_79</prop:hasF>
+    <prop:hasE>E 10_79</prop:hasE>
+    <prop:hasD>D 10_79</prop:hasD>
+    <prop:hasC>C 10_79</prop:hasC>
+    <prop:hasB>B 10_79</prop:hasB>
+    <prop:hasA>A 10_79</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_70">
+    <prop:hasF>F 10_70</prop:hasF>
+    <prop:hasE>E 10_70</prop:hasE>
+    <prop:hasD>D 10_70</prop:hasD>
+    <prop:hasC>C 10_70</prop:hasC>
+    <prop:hasB>B 10_70</prop:hasB>
+    <prop:hasA>A 10_70</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_78">
+    <prop:hasF>F 10_78</prop:hasF>
+    <prop:hasE>E 10_78</prop:hasE>
+    <prop:hasD>D 10_78</prop:hasD>
+    <prop:hasC>C 10_78</prop:hasC>
+    <prop:hasB>B 10_78</prop:hasB>
+    <prop:hasA>A 10_78</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_66">
+    <prop:hasF>F 10_66</prop:hasF>
+    <prop:hasE>E 10_66</prop:hasE>
+    <prop:hasD>D 10_66</prop:hasD>
+    <prop:hasC>C 10_66</prop:hasC>
+    <prop:hasB>B 10_66</prop:hasB>
+    <prop:hasA>A 10_66</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_54">
+    <prop:hasF>F 10_54</prop:hasF>
+    <prop:hasE>E 10_54</prop:hasE>
+    <prop:hasD>D 10_54</prop:hasD>
+    <prop:hasC>C 10_54</prop:hasC>
+    <prop:hasB>B 10_54</prop:hasB>
+    <prop:hasA>A 10_54</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_42">
+    <prop:hasF>F 10_42</prop:hasF>
+    <prop:hasE>E 10_42</prop:hasE>
+    <prop:hasD>D 10_42</prop:hasD>
+    <prop:hasC>C 10_42</prop:hasC>
+    <prop:hasB>B 10_42</prop:hasB>
+    <prop:hasA>A 10_42</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_30">
+    <prop:hasF>F 10_30</prop:hasF>
+    <prop:hasE>E 10_30</prop:hasE>
+    <prop:hasD>D 10_30</prop:hasD>
+    <prop:hasC>C 10_30</prop:hasC>
+    <prop:hasB>B 10_30</prop:hasB>
+    <prop:hasA>A 10_30</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_3">
+    <prop:hasF>F 10_3</prop:hasF>
+    <prop:hasE>E 10_3</prop:hasE>
+    <prop:hasD>D 10_3</prop:hasD>
+    <prop:hasC>C 10_3</prop:hasC>
+    <prop:hasB>B 10_3</prop:hasB>
+    <prop:hasA>A 10_3</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_94">
+    <prop:hasF>F 10_94</prop:hasF>
+    <prop:hasE>E 10_94</prop:hasE>
+    <prop:hasD>D 10_94</prop:hasD>
+    <prop:hasC>C 10_94</prop:hasC>
+    <prop:hasB>B 10_94</prop:hasB>
+    <prop:hasA>A 10_94</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_82">
+    <prop:hasF>F 10_82</prop:hasF>
+    <prop:hasE>E 10_82</prop:hasE>
+    <prop:hasD>D 10_82</prop:hasD>
+    <prop:hasC>C 10_82</prop:hasC>
+    <prop:hasB>B 10_82</prop:hasB>
+    <prop:hasA>A 10_82</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_48">
+    <prop:hasF>F 10_48</prop:hasF>
+    <prop:hasE>E 10_48</prop:hasE>
+    <prop:hasD>D 10_48</prop:hasD>
+    <prop:hasC>C 10_48</prop:hasC>
+    <prop:hasB>B 10_48</prop:hasB>
+    <prop:hasA>A 10_48</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_36">
+    <prop:hasF>F 10_36</prop:hasF>
+    <prop:hasE>E 10_36</prop:hasE>
+    <prop:hasD>D 10_36</prop:hasD>
+    <prop:hasC>C 10_36</prop:hasC>
+    <prop:hasB>B 10_36</prop:hasB>
+    <prop:hasA>A 10_36</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_24">
+    <prop:hasF>F 10_24</prop:hasF>
+    <prop:hasE>E 10_24</prop:hasE>
+    <prop:hasD>D 10_24</prop:hasD>
+    <prop:hasC>C 10_24</prop:hasC>
+    <prop:hasB>B 10_24</prop:hasB>
+    <prop:hasA>A 10_24</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_91">
+    <prop:hasF>F 10_91</prop:hasF>
+    <prop:hasE>E 10_91</prop:hasE>
+    <prop:hasD>D 10_91</prop:hasD>
+    <prop:hasC>C 10_91</prop:hasC>
+    <prop:hasB>B 10_91</prop:hasB>
+    <prop:hasA>A 10_91</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_8">
+    <prop:hasF>F 10_8</prop:hasF>
+    <prop:hasE>E 10_8</prop:hasE>
+    <prop:hasD>D 10_8</prop:hasD>
+    <prop:hasC>C 10_8</prop:hasC>
+    <prop:hasB>B 10_8</prop:hasB>
+    <prop:hasA>A 10_8</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_23">
+    <prop:hasF>F 10_23</prop:hasF>
+    <prop:hasE>E 10_23</prop:hasE>
+    <prop:hasD>D 10_23</prop:hasD>
+    <prop:hasC>C 10_23</prop:hasC>
+    <prop:hasB>B 10_23</prop:hasB>
+    <prop:hasA>A 10_23</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_99">
+    <prop:hasF>F 10_99</prop:hasF>
+    <prop:hasE>E 10_99</prop:hasE>
+    <prop:hasD>D 10_99</prop:hasD>
+    <prop:hasC>C 10_99</prop:hasC>
+    <prop:hasB>B 10_99</prop:hasB>
+    <prop:hasA>A 10_99</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_11">
+    <prop:hasF>F 10_11</prop:hasF>
+    <prop:hasE>E 10_11</prop:hasE>
+    <prop:hasD>D 10_11</prop:hasD>
+    <prop:hasC>C 10_11</prop:hasC>
+    <prop:hasB>B 10_11</prop:hasB>
+    <prop:hasA>A 10_11</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_87">
+    <prop:hasF>F 10_87</prop:hasF>
+    <prop:hasE>E 10_87</prop:hasE>
+    <prop:hasD>D 10_87</prop:hasD>
+    <prop:hasC>C 10_87</prop:hasC>
+    <prop:hasB>B 10_87</prop:hasB>
+    <prop:hasA>A 10_87</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_75">
+    <prop:hasF>F 10_75</prop:hasF>
+    <prop:hasE>E 10_75</prop:hasE>
+    <prop:hasD>D 10_75</prop:hasD>
+    <prop:hasC>C 10_75</prop:hasC>
+    <prop:hasB>B 10_75</prop:hasB>
+    <prop:hasA>A 10_75</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_63">
+    <prop:hasF>F 10_63</prop:hasF>
+    <prop:hasE>E 10_63</prop:hasE>
+    <prop:hasD>D 10_63</prop:hasD>
+    <prop:hasC>C 10_63</prop:hasC>
+    <prop:hasB>B 10_63</prop:hasB>
+    <prop:hasA>A 10_63</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_51">
+    <prop:hasF>F 10_51</prop:hasF>
+    <prop:hasE>E 10_51</prop:hasE>
+    <prop:hasD>D 10_51</prop:hasD>
+    <prop:hasC>C 10_51</prop:hasC>
+    <prop:hasB>B 10_51</prop:hasB>
+    <prop:hasA>A 10_51</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_49">
+    <prop:hasF>F 10_49</prop:hasF>
+    <prop:hasE>E 10_49</prop:hasE>
+    <prop:hasD>D 10_49</prop:hasD>
+    <prop:hasC>C 10_49</prop:hasC>
+    <prop:hasB>B 10_49</prop:hasB>
+    <prop:hasA>A 10_49</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_37">
+    <prop:hasF>F 10_37</prop:hasF>
+    <prop:hasE>E 10_37</prop:hasE>
+    <prop:hasD>D 10_37</prop:hasD>
+    <prop:hasC>C 10_37</prop:hasC>
+    <prop:hasB>B 10_37</prop:hasB>
+    <prop:hasA>A 10_37</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_25">
+    <prop:hasF>F 10_25</prop:hasF>
+    <prop:hasE>E 10_25</prop:hasE>
+    <prop:hasD>D 10_25</prop:hasD>
+    <prop:hasC>C 10_25</prop:hasC>
+    <prop:hasB>B 10_25</prop:hasB>
+    <prop:hasA>A 10_25</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_13">
+    <prop:hasF>F 10_13</prop:hasF>
+    <prop:hasE>E 10_13</prop:hasE>
+    <prop:hasD>D 10_13</prop:hasD>
+    <prop:hasC>C 10_13</prop:hasC>
+    <prop:hasB>B 10_13</prop:hasB>
+    <prop:hasA>A 10_13</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_92">
+    <prop:hasF>F 10_92</prop:hasF>
+    <prop:hasE>E 10_92</prop:hasE>
+    <prop:hasD>D 10_92</prop:hasD>
+    <prop:hasC>C 10_92</prop:hasC>
+    <prop:hasB>B 10_92</prop:hasB>
+    <prop:hasA>A 10_92</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_80">
+    <prop:hasF>F 10_80</prop:hasF>
+    <prop:hasE>E 10_80</prop:hasE>
+    <prop:hasD>D 10_80</prop:hasD>
+    <prop:hasC>C 10_80</prop:hasC>
+    <prop:hasB>B 10_80</prop:hasB>
+    <prop:hasA>A 10_80</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_9">
+    <prop:hasF>F 10_9</prop:hasF>
+    <prop:hasE>E 10_9</prop:hasE>
+    <prop:hasD>D 10_9</prop:hasD>
+    <prop:hasC>C 10_9</prop:hasC>
+    <prop:hasB>B 10_9</prop:hasB>
+    <prop:hasA>A 10_9</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_12">
+    <prop:hasF>F 10_12</prop:hasF>
+    <prop:hasE>E 10_12</prop:hasE>
+    <prop:hasD>D 10_12</prop:hasD>
+    <prop:hasC>C 10_12</prop:hasC>
+    <prop:hasB>B 10_12</prop:hasB>
+    <prop:hasA>A 10_12</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_88">
+    <prop:hasF>F 10_88</prop:hasF>
+    <prop:hasE>E 10_88</prop:hasE>
+    <prop:hasD>D 10_88</prop:hasD>
+    <prop:hasC>C 10_88</prop:hasC>
+    <prop:hasB>B 10_88</prop:hasB>
+    <prop:hasA>A 10_88</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_76">
+    <prop:hasF>F 10_76</prop:hasF>
+    <prop:hasE>E 10_76</prop:hasE>
+    <prop:hasD>D 10_76</prop:hasD>
+    <prop:hasC>C 10_76</prop:hasC>
+    <prop:hasB>B 10_76</prop:hasB>
+    <prop:hasA>A 10_76</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_64">
+    <prop:hasF>F 10_64</prop:hasF>
+    <prop:hasE>E 10_64</prop:hasE>
+    <prop:hasD>D 10_64</prop:hasD>
+    <prop:hasC>C 10_64</prop:hasC>
+    <prop:hasB>B 10_64</prop:hasB>
+    <prop:hasA>A 10_64</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_52">
+    <prop:hasF>F 10_52</prop:hasF>
+    <prop:hasE>E 10_52</prop:hasE>
+    <prop:hasD>D 10_52</prop:hasD>
+    <prop:hasC>C 10_52</prop:hasC>
+    <prop:hasB>B 10_52</prop:hasB>
+    <prop:hasA>A 10_52</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_40">
+    <prop:hasF>F 10_40</prop:hasF>
+    <prop:hasE>E 10_40</prop:hasE>
+    <prop:hasD>D 10_40</prop:hasD>
+    <prop:hasC>C 10_40</prop:hasC>
+    <prop:hasB>B 10_40</prop:hasB>
+    <prop:hasA>A 10_40</prop:hasA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/Persona_10_1">
+    <prop:hasF>F 10_1</prop:hasF>
+    <prop:hasE>E 10_1</prop:hasE>
+    <prop:hasD>D 10_1</prop:hasD>
+    <prop:hasC>C 10_1</prop:hasC>
+    <prop:hasB>B 10_1</prop:hasB>
+    <prop:hasA>A 10_1</prop:hasA>
+  </rdf:Description>
+</rdf:RDF>
