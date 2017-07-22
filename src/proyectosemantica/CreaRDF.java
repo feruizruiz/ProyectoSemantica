@@ -74,7 +74,7 @@ public class CreaRDF {
                 Property hasEProp   = model.createProperty(prefix+hasE);
                 Property hasFProp  = model.createProperty(prefix+hasF);
                 
-                carga = carga + 10 ;
+                carga = carga + 1 ;
                  for(int j=1;j <=carga; j++  ) {
                      personURI = "http://somewhere/Persona_"+i+"_"+j;
                      String valA =  "A "+i+"_"+j;

@@ -23,6 +23,10 @@ import java.io.InputStream;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.util.FileManager;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -32,6 +36,8 @@ import java.nio.file.Path ;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -40,6 +46,7 @@ import java.util.Properties;
 public class CrearOntlogy {
     
     String inputFileName = System.getProperty("user.dir")+"/archivos/test_ontology.owl" ;
+    String inputFileOrigin = System.getProperty("user.dir")+"/archivos/original.owl" ;
     // create an empty model
     ArrayList<DatosTest> datos = new ArrayList<DatosTest>();
     
@@ -49,9 +56,13 @@ public class CrearOntlogy {
         String individuo = "";
         long TInicio, TFin, tiempo;
         int carga = 1;
+        
+          
+        
         for(int i=1 ; i<=experimentos ;i ++)
         {
-                 carga = carga + 10 ;
+                 this.iniciarArchvivo();
+                 carga = carga + 1 ;
                  for(int j=1;j <=carga; j++  ) {
                        individuo ="individuo_"+i+"_"+j; 
                         stament += "\n"+
@@ -81,7 +92,52 @@ public class CrearOntlogy {
                 datos.add(dato);
                 System.out.println("Experimento Ontologia "+i+" Carga "+carga+" tiempo "+ tiempo); 
                 stament= "";
+                
         } 
-       
-    }          
+
+    }
+     
+    public void iniciarArchvivo() 
+    {
+    
+        String ruta = inputFileName;
+           File archivo = new File(ruta);
+           BufferedWriter bw;
+           if(archivo.exists()) {
+                try {
+                    // El fichero ya existe
+                    bw = new BufferedWriter(new FileWriter(archivo));
+                    bw.write(this.cabeceraOWL ());
+                    bw.close();
+                } catch (IOException ex) {
+                    Logger.getLogger(CrearOntlogy.class.getName()).log(Level.SEVERE, null, ex);
+                }         
+           } else {
+           // El fichero no existe y hay que crearlo
+              try {
+                    // El fichero ya existe
+                    bw = new BufferedWriter(new FileWriter(archivo));
+                    bw.write(this.cabeceraOWL ());
+                    bw.close();
+                } catch (IOException ex) {
+                    Logger.getLogger(CrearOntlogy.class.getName()).log(Level.SEVERE, null, ex);
+                }
+           }
+           
+    
+    }  
+    
+    public String cabeceraOWL () throws FileNotFoundException, IOException 
+    {
+      String cadena;
+      String  xml = "";
+      FileReader f = new FileReader(inputFileOrigin);
+      BufferedReader b = new BufferedReader(f);
+      while((cadena = b.readLine())!=null) {
+          xml+= cadena+"\n";
+      }
+      b.close();
+      return xml;
+    }
+     
 }
