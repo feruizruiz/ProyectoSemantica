@@ -27,6 +27,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
+import java.util.Calendar;
+import java.util.Random;
+import java.text.SimpleDateFormat;
 /**
  *
  * @author Lenovo
@@ -38,21 +41,34 @@ public class CreaRDF {
     ArrayList<DatosTest> datos = new ArrayList<DatosTest>();
     public  void  crear(int experimentos) throws IOException 
     {      
-            String personURI = "http://somewhere/JohnSmith";
-            String hasA = "hasA";
-            String hasB = "hasB"; 
-            String hasC = "hasC"; 
-            String hasD = "hasD"; 
-            String hasE = "hasE";
-            String hasF = "hasF";
-            String prefix = "http://somewhere/properties#";
+            String colegioURI = "http://www.colegiosColombia.com/Informacion#Colegio_Nombre";
+            String estaEn = "estaEn";
+            String direccionEs = "direccionEs"; 
+            String fundadoPor = "fundadoPor"; 
+            String fundadoEl = "fundadoEl"; 
+            String directorEs = "directorEs";
+            String profesaReligion = "profesaReligion";
+            String imparteClaseEn = "imparteClaseEn";
+            String tieneJornada = "tieneJornada";
+            String generoEs = "generoEs";
+            String tieneCalendario = "tieneCalendario";
+            String prefix = "http://www.colegiosColombia.com/Informacion#";
             
-           long TInicio, TFin, tiempo;
-           int carga = 1;
-           
-            
+            long TInicio, TFin, tiempo;
+            int carga = 0;
             // use the FileManager to find the input file
-         
+            String []ciudadColombia = {"Bogota,DC","Chia,Cundinamarca","Medellin,Antioquia","Cali,Valle_del_Cauca","Popayan,Cauca",
+                "Pasto,Nariño","Bucaramanga,Santander","Barranquilla,Atlantico","Cartagena,Bolivar","Santa_Marta,Magdalena"};
+            String [] fundadores = {"Rafael_Garcia_Herreros","Bartolomé_Lobo_Guerrero","Eleanor_France_de_Alum","Juan_Bautista_De_La_Salle"};
+            //String [] directorActual = {"Diego Fernando Sanchez","Martha Isabela Franco",""};
+            String [] religion = {"Católica","Cristiano-Evanngelico","Ninguna"};
+            String [] idiomaExtranjero = {"Ingles","Frances","Portugués","Italiano","Mandarín","Chino","Ninguno"};
+            String [] direccionCalle = {"Calle","Diagonal","Carrera","Transversal","Avenida","Autopista"};
+            String [] jornada = {"Mañana","Tarde","Nocturna","Completa"};
+            String [] genero = {"Masculino","Femenino","Mixto","Masculino-Femenino"};
+            String [] calendario = {"A","B"};
+            Calendar fechaFundacion;
+            Random aleatorio = new Random(System.currentTimeMillis());
             
             for(int i=1 ; i<=experimentos ;i ++)
             {    
@@ -65,35 +81,55 @@ public class CreaRDF {
                 }
                 FileWriter out = new FileWriter(inputFileName);
 
-
                 //create a property
-                Property hasAProp   = model.createProperty(prefix+hasA);
-                Property hasBProp    = model.createProperty(prefix+hasB);
-                Property hasCProp = model.createProperty(prefix+hasC);
-                Property hasDProp = model.createProperty(prefix+hasD);
-                Property hasEProp   = model.createProperty(prefix+hasE);
-                Property hasFProp  = model.createProperty(prefix+hasF);
+                Property estaEnProp = model.createProperty(prefix+estaEn);
+                Property direccionEsProp = model.createProperty(prefix+direccionEs);
+                Property fundadoPorProp = model.createProperty(prefix+fundadoPor);
+                Property fundadoElProp = model.createProperty(prefix+fundadoEl);
+                Property directorEsProp = model.createProperty(prefix+directorEs);
+                Property profesaReligionProp = model.createProperty(prefix+profesaReligion);
+                Property imparteClaseEnProp = model.createProperty(prefix+imparteClaseEn);
+                Property tieneJornadaProp = model.createProperty(prefix+tieneJornada);
+                Property generoEsProp = model.createProperty(prefix+generoEs);
+                Property tieneCalendarioProp = model.createProperty(prefix+tieneCalendario);
                 
                 carga = carga + 10 ;
-                 for(int j=1;j <=carga; j++  ) {
-                     personURI = "http://somewhere/Persona_"+i+"_"+j;
-                     String valA =  "A "+i+"_"+j;
-                     String valB =  "B "+i+"_"+j;
-                     String valC =  "C "+i+"_"+j;
-                     String valD =  "D "+i+"_"+j;
-                     String valE =  "E "+i+"_"+j;
-                     String valF =  "F "+i+"_"+j;
-
-                     Resource recurso = model.createResource(personURI);
-                        // add the property
-                     recurso.addProperty(hasAProp, valA);
-                     recurso.addProperty(hasBProp, valB);
-                     recurso.addProperty(hasCProp, valC);
-                     recurso.addProperty(hasDProp, valD);
-                     recurso.addProperty(hasEProp, valE);
-                     recurso.addProperty(hasFProp, valF);                     
-                     // set prefixes
-                     model.setNsPrefix("prop", prefix);
+                for(int j=1; j<=carga; j++  ) {
+                    
+                    colegioURI = "http://www.colegiosColombia.com/Informacion#Colegio_Nombre" + j;
+                    String ciudad = ciudadColombia[aleatorio.nextInt(ciudadColombia.length)];
+                    Resource ciudadURI = model.createResource("http://www.ciudadesColombia.com/Informacion#"+ciudad);
+                    String direccion = direccionCalle[aleatorio.nextInt(direccionCalle.length)]+ " " + (aleatorio.nextInt(55)+1) + " N° " + (aleatorio.nextInt(55)+1) + " - " + (aleatorio.nextInt(55)+1);
+                    String fundador = fundadores[aleatorio.nextInt(fundadores.length)];
+                    Resource fundadorURI = model.createResource("http://www.colegiosColombia.com/Fundador#"+fundador);
+                    
+                    fechaFundacion = Calendar.getInstance();
+                    fechaFundacion.set (aleatorio.nextInt(117)+1900, aleatorio.nextInt(12)+1, aleatorio.nextInt(28)+1);
+                    SimpleDateFormat sdf = new SimpleDateFormat("dd/MMMMM/yyyy");
+                    String fundacion = sdf.format(fechaFundacion.getTime());
+                    
+                    String director = "Nombre"+ j;
+                    Resource directorURI = model.createResource("http://www.colegiosColombia.com/Director#"+director);
+                    String religionProfesa = religion[aleatorio.nextInt(religion.length)];
+                    String claseEnIdioma = idiomaExtranjero[aleatorio.nextInt(idiomaExtranjero.length)];
+                    String jornadaColegio = jornada[aleatorio.nextInt(jornada.length)];
+                    String generoAlumnos = genero[aleatorio.nextInt(genero.length)];
+                    String calendarioColegio = calendario[aleatorio.nextInt(calendario.length)];
+                    
+                    Resource colegio = model.createResource(colegioURI);
+                       // add the property
+                    model.add(colegio, estaEnProp, ciudadURI);
+                    colegio.addProperty(direccionEsProp, direccion);
+                    model.add(colegio, fundadoPorProp, fundadorURI);
+                    colegio.addProperty(fundadoElProp, fundacion);
+                    model.add(colegio, directorEsProp, directorURI);
+                    colegio.addProperty(profesaReligionProp, religionProfesa);
+                    colegio.addProperty(imparteClaseEnProp, claseEnIdioma); 
+                    colegio.addProperty(tieneJornadaProp, jornadaColegio);
+                    colegio.addProperty(generoEsProp, generoAlumnos);
+                    colegio.addProperty(tieneCalendarioProp, calendarioColegio);
+                    // set prefixes
+                    model.setNsPrefix("Colegio", prefix);
 
                      //System.out.println(" Linea  "+j);
                 } 

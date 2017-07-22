@@ -25,14 +25,14 @@ public class ProyectoSemantica {
        CreaRDF rdf = new CreaRDF();
        rdf.crear(nExperimentos);
        
-       CrearOntlogy ont =  new CrearOntlogy(); 
-       ont.crear(nExperimentos);
+       /*CrearOntology ont =  new CrearOntology(); 
+       ont.crear(nExperimentos);*/
     
         // cargue de una grafica  :  
       LinearChart chart = new LinearChart(
          "Tiempo VS Carga " );
       chart.datosRDF = rdf.datos;
-      chart.datosOWL = ont.datos;
+      //chart.datosOWL = ont.datos;
       
       chart.GenerarLinearChart( "Tiempo VS Carga ","Tiempo VS Carga");
 

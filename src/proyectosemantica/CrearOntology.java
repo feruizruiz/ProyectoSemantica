@@ -37,7 +37,7 @@ import java.util.Properties;
  *
  * @author Lenovo
  */
-public class CrearOntlogy {
+public class CrearOntology {
     
     String inputFileName = System.getProperty("user.dir")+"/archivos/test_ontology.owl" ;
     // create an empty model
@@ -48,10 +48,10 @@ public class CrearOntlogy {
         String  stament = "" ; 
         String individuo = "";
         long TInicio, TFin, tiempo;
-        int carga = 1;
+        int carga = 0;
         for(int i=1 ; i<=experimentos ;i ++)
         {
-                 carga = carga + 10 ;
+                 carga = carga + 1 ;
                  for(int j=1;j <=carga; j++  ) {
                        individuo ="individuo_"+i+"_"+j; 
                         stament += "\n"+
