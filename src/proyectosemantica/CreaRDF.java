@@ -39,6 +39,7 @@ public class CreaRDF {
     String inputFileName = System.getProperty("user.dir")+"/archivos/test_file.rdf" ;
     // create an empty model
     ArrayList<DatosTest> datos = new ArrayList<DatosTest>();
+    ArrayList<DatosTest> datosQuery = new ArrayList<DatosTest>();
     public  void  crear(int experimentos) throws IOException 
     {      
             String colegioURI = "http://www.colegiosColombia.com/Informacion#Colegio_Nombre";
@@ -55,6 +56,7 @@ public class CreaRDF {
             String prefix = "http://www.colegiosColombia.com/Informacion#";
             
             long TInicio, TFin, tiempo;
+            long TInicioQuery, TFinQuery, tiempoQuery;
             int carga = 0;
             // use the FileManager to find the input file
             String []ciudadColombia = {"Bogota,DC","Chia,Cundinamarca","Medellin,Antioquia","Cali,Valle_del_Cauca","Popayan,Cauca",
@@ -69,6 +71,22 @@ public class CreaRDF {
             String [] calendario = {"A","B"};
             Calendar fechaFundacion;
             Random aleatorio = new Random(System.currentTimeMillis());
+            
+            /////////Consulta//////////// 
+            // create query string
+            String queryString = "PREFIX Colegio: <"+ prefix + ">\n";
+            queryString += "SELECT ?colegio ?ciudad ?direccion ?fundador ?fundado ?director ?religion ?idiomaExtr ?jornada ?genero ?calendario "+"\n";
+            queryString += "WHERE {?colegio Colegio:estaEn ?ciudad. \n"
+                                + "?colegio Colegio:direccionEs ?direccion. \n"
+                                + "?colegio Colegio:fundadoPor ?fundador. \n"
+                                + "?colegio Colegio:fundadoEl ?fundado. \n"
+                                + "?colegio Colegio:directorEs ?director. \n"
+                                + "?colegio Colegio:profesaReligion ?religion. \n"
+                                + "?colegio Colegio:imparteClaseEn ?idiomaExtr. \n"
+                                + "?colegio Colegio:tieneJornada ?jornada. \n"
+                                + "?colegio Colegio:generoEs ?genero. \n"
+                                + "?colegio Colegio:tieneCalendario ?calendario. \n"
+                    + "}";
             
             for(int i=1 ; i<=experimentos ;i ++)
             {    
@@ -93,8 +111,8 @@ public class CreaRDF {
                 Property generoEsProp = model.createProperty(prefix+generoEs);
                 Property tieneCalendarioProp = model.createProperty(prefix+tieneCalendario);
                 
+                carga = carga + 1 ;
 
-                carga = carga + 10 ;
                 for(int j=1; j<=carga; j++  ) {
                     
                     colegioURI = "http://www.colegiosColombia.com/Informacion#Colegio_Nombre" + j;
@@ -134,22 +152,9 @@ public class CreaRDF {
 
                      //System.out.println(" Linea  "+j);
                 } 
-                 
-                /////////Consulta//////////// 
-                // create query string
-                /*
-                String queryString = "SELECT ?x "+"\n";
-                queryString += "WHERE {?x ?p ?y}";
-                // create ARQ query
-                Query query = QueryFactory.create(queryString);
-                // execute query
-                QueryExecution qe = QueryExecutionFactory.create(query, model);
-                // collect results
-                ResultSet results = qe.execSelect();
-                // print results nicely
-                System.out.println(ResultSetFormatter.asText(results));
-                */
-                DatosTest dato = new DatosTest(); 
+                               
+                DatosTest dato = new DatosTest();
+                DatosTest datoQuery = new DatosTest();
                 
                 TInicio = System.currentTimeMillis();
                 try {
@@ -164,16 +169,35 @@ public class CreaRDF {
                     // ignore
                     }
                 }
-               
                 TFin = System.currentTimeMillis(); 
+                    
+                TInicioQuery = System.currentTimeMillis();
+                Model modeloQuery = ModelFactory.createRDFSModel(model);
+                // create ARQ query
+                Query query = QueryFactory.create(queryString);
+                // execute query
+                QueryExecution qe = QueryExecutionFactory.create(query, modeloQuery);
+                // collect results
+                ResultSet results = qe.execSelect();
+                // print results nicely                     
+                TFinQuery = System.currentTimeMillis();
+                if(i==experimentos)
+                    System.out.println(ResultSetFormatter.asText(results));
                 
                 tiempo = TFin - TInicio; //Calculamos los milisegundos de diferencia
+                tiempoQuery = TFinQuery - TInicioQuery;  //Calculamos los milisegundos de diferencia
                 dato.setCarga(carga);
                 dato.setExperimento(i);
                 dato.setTiempo(tiempo); 
-                datos.add(dato);
-                System.out.println("Experimento RDF  "+i+" Carga "+carga+" tiempo "+ tiempo); //Mostramos en pantalla el tiempo de ejecución en milisegundos
                 
+                datoQuery.setCarga(carga);
+                datoQuery.setExperimento(i);
+                datoQuery.setTiempo(tiempoQuery);
+                
+                datos.add(dato);
+                datosQuery.add(datoQuery);
+                System.out.println("Experimento RDF(Carga) "+i+" Carga "+carga+" tiempo "+ tiempo); //Mostramos en pantalla el tiempo de ejecución en milisegundos
+                System.out.println("Experimento RDF(Query) "+i+" Carga "+carga+" tiempo "+ tiempoQuery); //Mostramos en pantalla el tiempo de ejecución en milisegundos
             }
             // writing RDF
             // write the model in XML form

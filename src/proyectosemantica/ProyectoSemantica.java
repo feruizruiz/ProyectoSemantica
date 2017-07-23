@@ -29,15 +29,24 @@ public class ProyectoSemantica {
        ont.crear(nExperimentos);*/
     
         // cargue de una grafica  :  
-      LinearChart chart = new LinearChart(
-         "Tiempo VS Carga " );
-      chart.datosRDF = rdf.datos;
-      //chart.datosOWL = ont.datos;
+      LinearChart chartLoad = new LinearChart("TiempoCarga" );
+      chartLoad.datosRDF = rdf.datos;
+      //chartLoad.datosOWL = ont.datos;
       
-      chart.GenerarLinearChart( "Tiempo VS Carga ","Tiempo VS Carga");
+      chartLoad.GenerarLinearChart( "TiempoCarga","Tiempo de Carga");
 
-      chart.pack( );
-      chart.setVisible( true );
+      chartLoad.pack( );
+      chartLoad.setVisible( true );
+      
+      LinearChart chartQuery = new LinearChart("TiempoQuery");
+      chartQuery.datosRDF = rdf.datosQuery;
+      //chartQuery.datosOWL = ont.datos;
+      
+      chartQuery.GenerarLinearChart( "TiempoQuery","Tiempo Respuesta Query");
+
+      chartQuery.pack( );
+      chartQuery.setVisible( true );
+      
      
     }
     
