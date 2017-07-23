@@ -1,16 +1,1204 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:Colegio="http://www.colegiosColombia.com/Informacion#">
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre4">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre4"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bucaramanga,Santander"/>
+    <Colegio:fundadoEl>19/septiembre/1972</Colegio:fundadoEl>
+    <Colegio:direccionEs>Avenida 9 N° 49 - 40</Colegio:direccionEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre15">
+    <Colegio:direccionEs>Avenida 31 N° 44 - 7</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre15"/>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:fundadoEl>01/marzo/2010</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Barranquilla,Atlantico"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre27">
+    <Colegio:direccionEs>Calle 51 N° 28 - 23</Colegio:direccionEs>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre27"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:fundadoEl>22/octubre/1941</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Barranquilla,Atlantico"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre39">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre39"/>
+    <Colegio:direccionEs>Autopista 11 N° 26 - 31</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>04/septiembre/1999</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre43">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:direccionEs>Transversal 27 N° 16 - 41</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>22/mayo/1909</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre55">
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Avenida 41 N° 46 - 39</Colegio:direccionEs>
+    <Colegio:fundadoEl>14/febrero/1981</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre55"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre67">
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Calle 9 N° 22 - 44</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:fundadoEl>22/marzo/1991</Colegio:fundadoEl>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre67"/>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre79">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:fundadoEl>20/septiembre/1994</Colegio:fundadoEl>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Transversal 21 N° 2 - 1</Colegio:direccionEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre79"/>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre83">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre83"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Medellin,Antioquia"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:fundadoEl>21/enero/2002</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Transversal 14 N° 9 - 36</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre95">
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoEl>17/mayo/2004</Colegio:fundadoEl>
+    <Colegio:direccionEs>Avenida 47 N° 34 - 17</Colegio:direccionEs>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre95"/>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre31">
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>17/abril/1992</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre31"/>
+    <Colegio:direccionEs>Autopista 37 N° 30 - 43</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre71">
+    <Colegio:direccionEs>Autopista 9 N° 44 - 11</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre71"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>09/diciembre/1936</Colegio:fundadoEl>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre3">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre3"/>
+    <Colegio:fundadoEl>04/junio/1978</Colegio:fundadoEl>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:direccionEs>Avenida 48 N° 23 - 25</Colegio:direccionEs>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre14">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre14"/>
+    <Colegio:fundadoEl>24/noviembre/1991</Colegio:fundadoEl>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:direccionEs>Transversal 10 N° 41 - 4</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre26">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:fundadoEl>02/febrero/1917</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:direccionEs>Transversal 22 N° 53 - 33</Colegio:direccionEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre26"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre38">
+    <Colegio:direccionEs>Carrera 35 N° 5 - 20</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:fundadoEl>19/diciembre/1928</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre38"/>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre54">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:direccionEs>Calle 33 N° 4 - 7</Colegio:direccionEs>
+    <Colegio:fundadoEl>06/febrero/1917</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre54"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre66">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:direccionEs>Autopista 1 N° 25 - 27</Colegio:direccionEs>
+    <Colegio:fundadoEl>07/febrero/2015</Colegio:fundadoEl>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre66"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre78">
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:fundadoEl>15/junio/1992</Colegio:fundadoEl>
+    <Colegio:direccionEs>Carrera 49 N° 16 - 39</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre94">
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoEl>03/julio/1918</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:direccionEs>Avenida 36 N° 11 - 43</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre94"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre30">
+    <Colegio:fundadoEl>17/mayo/2001</Colegio:fundadoEl>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre30"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Calle 31 N° 40 - 6</Colegio:direccionEs>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre42">
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre42"/>
+    <Colegio:fundadoEl>02/junio/1979</Colegio:fundadoEl>
+    <Colegio:direccionEs>Diagonal 19 N° 49 - 9</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre70">
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:direccionEs>Avenida 11 N° 10 - 5</Colegio:direccionEs>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre70"/>
+    <Colegio:fundadoEl>07/julio/1924</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre2">
+    <Colegio:direccionEs>Carrera 13 N° 10 - 54</Colegio:direccionEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre2"/>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>24/marzo/1968</Colegio:fundadoEl>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre82">
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre82"/>
+    <Colegio:direccionEs>Carrera 41 N° 32 - 16</Colegio:direccionEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:fundadoEl>28/noviembre/1935</Colegio:fundadoEl>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre25">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre25"/>
+    <Colegio:direccionEs>Avenida 37 N° 21 - 3</Colegio:direccionEs>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoEl>20/febrero/1912</Colegio:fundadoEl>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Medellin,Antioquia"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre37">
+    <Colegio:fundadoEl>21/mayo/1967</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre37"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:direccionEs>Carrera 48 N° 52 - 46</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre49">
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre49"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:direccionEs>Autopista 35 N° 52 - 17</Colegio:direccionEs>
+    <Colegio:fundadoEl>20/julio/1958</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre65">
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre65"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Avenida 43 N° 19 - 26</Colegio:direccionEs>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:fundadoEl>06/enero/1985</Colegio:fundadoEl>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre77">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre77"/>
+    <Colegio:fundadoEl>11/abril/2011</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:direccionEs>Avenida 26 N° 26 - 52</Colegio:direccionEs>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre89">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre89"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:fundadoEl>16/mayo/2005</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:direccionEs>Calle 24 N° 17 - 42</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre13">
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:direccionEs>Calle 40 N° 34 - 6</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre13"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>20/septiembre/1934</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre41">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoEl>02/enero/1904</Colegio:fundadoEl>
+    <Colegio:direccionEs>Transversal 41 N° 5 - 25</Colegio:direccionEs>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre53">
+    <Colegio:direccionEs>Diagonal 50 N° 49 - 21</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bucaramanga,Santander"/>
+    <Colegio:fundadoEl>08/julio/1987</Colegio:fundadoEl>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre53"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre81">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre81"/>
+    <Colegio:fundadoEl>14/agosto/2002</Colegio:fundadoEl>
+    <Colegio:direccionEs>Carrera 51 N° 32 - 50</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre1">
     <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
     <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre1"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:fundadoEl>17/marzo/1947</Colegio:fundadoEl>
+    <Colegio:direccionEs>Calle 42 N° 12 - 22</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre93">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre93"/>
+    <Colegio:fundadoEl>09/enero/2011</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:direccionEs>Avenida 55 N° 31 - 46</Colegio:direccionEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
     <Colegio:generoEs>Femenino</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre36">
+    <Colegio:fundadoEl>21/octubre/1946</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre36"/>
+    <Colegio:direccionEs>Transversal 12 N° 46 - 41</Colegio:direccionEs>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre48">
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:direccionEs>Calle 46 N° 27 - 8</Colegio:direccionEs>
+    <Colegio:fundadoEl>19/diciembre/2004</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Barranquilla,Atlantico"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre48"/>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre76">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre76"/>
+    <Colegio:direccionEs>Transversal 24 N° 20 - 7</Colegio:direccionEs>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>13/enero/1993</Colegio:fundadoEl>
     <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
     <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre88">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:direccionEs>Calle 21 N° 12 - 35</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:fundadoEl>01/marzo/1919</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre88"/>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre12">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>21/marzo/1981</Colegio:fundadoEl>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre12"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:direccionEs>Calle 24 N° 14 - 40</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre9">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre9"/>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:fundadoEl>22/febrero/1995</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:direccionEs>Diagonal 39 N° 13 - 15</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre24">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre24"/>
+    <Colegio:direccionEs>Autopista 43 N° 2 - 45</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:fundadoEl>13/febrero/2016</Colegio:fundadoEl>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre40">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:direccionEs>Carrera 51 N° 18 - 38</Colegio:direccionEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre40"/>
+    <Colegio:fundadoEl>04/enero/1988</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre52">
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:fundadoEl>05/junio/1920</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Avenida 34 N° 25 - 53</Colegio:direccionEs>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre52"/>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre64">
+    <Colegio:direccionEs>Avenida 1 N° 44 - 41</Colegio:direccionEs>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:fundadoEl>28/diciembre/1918</Colegio:fundadoEl>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre80">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:direccionEs>Carrera 51 N° 55 - 24</Colegio:direccionEs>
+    <Colegio:fundadoEl>09/julio/1999</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Barranquilla,Atlantico"/>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre92">
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre92"/>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:fundadoEl>28/marzo/2002</Colegio:fundadoEl>
+    <Colegio:direccionEs>Calle 44 N° 15 - 21</Colegio:direccionEs>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre47">
+    <Colegio:fundadoEl>27/septiembre/1937</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:direccionEs>Transversal 17 N° 32 - 42</Colegio:direccionEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Barranquilla,Atlantico"/>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre59">
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
     <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
     <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
-    <Colegio:fundadoEl>03/noviembre/2002</Colegio:fundadoEl>
-    <Colegio:direccionEs>Avenida 32 N° 44 - 33</Colegio:direccionEs>
+    <Colegio:fundadoEl>26/abril/2002</Colegio:fundadoEl>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre59"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:direccionEs>Calle 24 N° 41 - 8</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre87">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre87"/>
+    <Colegio:fundadoEl>16/septiembre/1905</Colegio:fundadoEl>
+    <Colegio:direccionEs>Diagonal 39 N° 30 - 31</Colegio:direccionEs>
     <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre99">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre99"/>
+    <Colegio:direccionEs>Avenida 7 N° 31 - 35</Colegio:direccionEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:fundadoEl>26/julio/1900</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre11">
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>13/diciembre/2004</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:direccionEs>Autopista 54 N° 28 - 48</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre11"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre8">
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre8"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:direccionEs>Avenida 35 N° 6 - 8</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:fundadoEl>19/enero/2001</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre23">
+    <Colegio:direccionEs>Calle 22 N° 52 - 20</Colegio:direccionEs>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>03/febrero/1946</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre23"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre35">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+    <Colegio:fundadoEl>12/mayo/1980</Colegio:fundadoEl>
+    <Colegio:direccionEs>Transversal 47 N° 31 - 23</Colegio:direccionEs>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre19">
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Carrera 46 N° 45 - 30</Colegio:direccionEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre19"/>
+    <Colegio:fundadoEl>09/julio/1966</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre51">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:direccionEs>Diagonal 20 N° 36 - 23</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre51"/>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>04/marzo/1911</Colegio:fundadoEl>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre63">
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre63"/>
+    <Colegio:fundadoEl>24/enero/1948</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:direccionEs>Carrera 19 N° 19 - 1</Colegio:direccionEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre75">
+    <Colegio:fundadoEl>17/abril/1962</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bucaramanga,Santander"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre75"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:direccionEs>Carrera 28 N° 40 - 42</Colegio:direccionEs>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre91">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:direccionEs>Diagonal 33 N° 42 - 25</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre91"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>23/agosto/1967</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre58">
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Carrera 25 N° 17 - 51</Colegio:direccionEs>
+    <Colegio:fundadoEl>07/enero/1946</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre58"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bogota,DC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre98">
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:direccionEs>Carrera 4 N° 1 - 32</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre98"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>03/junio/1954</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre10">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:fundadoEl>22/septiembre/1917</Colegio:fundadoEl>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre10"/>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Avenida 13 N° 44 - 47</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre7">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre7"/>
+    <Colegio:fundadoEl>06/diciembre/1949</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:direccionEs>Avenida 11 N° 22 - 45</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre22">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:direccionEs>Transversal 13 N° 31 - 6</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre22"/>
+    <Colegio:fundadoEl>06/marzo/1901</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre34">
+    <Colegio:direccionEs>Autopista 13 N° 48 - 32</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:fundadoEl>22/diciembre/1941</Colegio:fundadoEl>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre34"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre46">
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre46"/>
+    <Colegio:direccionEs>Carrera 27 N° 53 - 34</Colegio:direccionEs>
+    <Colegio:fundadoEl>14/agosto/1956</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre18">
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bucaramanga,Santander"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre18"/>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:fundadoEl>06/enero/1950</Colegio:fundadoEl>
+    <Colegio:direccionEs>Carrera 15 N° 8 - 5</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre50">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bucaramanga,Santander"/>
+    <Colegio:fundadoEl>05/abril/1974</Colegio:fundadoEl>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre50"/>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Autopista 40 N° 14 - 47</Colegio:direccionEs>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre62">
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:fundadoEl>03/junio/2007</Colegio:fundadoEl>
+    <Colegio:direccionEs>Calle 31 N° 8 - 38</Colegio:direccionEs>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre62"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre74">
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:direccionEs>Avenida 31 N° 5 - 27</Colegio:direccionEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>17/marzo/1944</Colegio:fundadoEl>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre74"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bucaramanga,Santander"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre86">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre86"/>
+    <Colegio:direccionEs>Carrera 38 N° 23 - 31</Colegio:direccionEs>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:fundadoEl>14/agosto/2012</Colegio:fundadoEl>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Medellin,Antioquia"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre90">
+    <Colegio:direccionEs>Carrera 41 N° 24 - 2</Colegio:direccionEs>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:fundadoEl>11/agosto/2007</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre90"/>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre69">
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre69"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Diagonal 55 N° 50 - 10</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:fundadoEl>13/octubre/1929</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre17">
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>17/enero/1993</Colegio:fundadoEl>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre17"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Medellin,Antioquia"/>
+    <Colegio:direccionEs>Transversal 6 N° 12 - 13</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre6">
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Diagonal 52 N° 29 - 51</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre6"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>02/junio/1935</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre21">
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:fundadoEl>07/julio/1930</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre21"/>
+    <Colegio:direccionEs>Calle 1 N° 22 - 20</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre33">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre33"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Diagonal 40 N° 34 - 25</Colegio:direccionEs>
+    <Colegio:fundadoEl>23/enero/1992</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre45">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:fundadoEl>19/abril/1990</Colegio:fundadoEl>
+    <Colegio:direccionEs>Carrera 3 N° 7 - 50</Colegio:direccionEs>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre45"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre57">
+    <Colegio:imparteClaseEn>Frances</Colegio:imparteClaseEn>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Pasto,Nariño"/>
+    <Colegio:fundadoEl>04/marzo/1946</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:direccionEs>Avenida 26 N° 26 - 12</Colegio:direccionEs>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Mañana</Colegio:tieneJornada>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre57"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre29">
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+    <Colegio:direccionEs>Carrera 53 N° 41 - 43</Colegio:direccionEs>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Medellin,Antioquia"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre29"/>
+    <Colegio:fundadoEl>06/mayo/1951</Colegio:fundadoEl>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre61">
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:direccionEs>Diagonal 8 N° 9 - 28</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:fundadoEl>12/mayo/1959</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre73">
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:direccionEs>Diagonal 20 N° 38 - 32</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>26/septiembre/1980</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre73"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre85">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:fundadoEl>18/septiembre/2006</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:direccionEs>Autopista 35 N° 42 - 52</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:imparteClaseEn>Portugués</Colegio:imparteClaseEn>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre97">
+    <Colegio:fundadoEl>09/mayo/1932</Colegio:fundadoEl>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre97"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Calle 20 N° 52 - 52</Colegio:direccionEs>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre5">
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre5"/>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>02/enero/1972</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:direccionEs>Avenida 17 N° 43 - 15</Colegio:direccionEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre16">
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Bucaramanga,Santander"/>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:direccionEs>Transversal 16 N° 55 - 54</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre16"/>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>14/julio/1935</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre28">
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Avenida 32 N° 52 - 32</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre28"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoEl>27/diciembre/1922</Colegio:fundadoEl>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Medellin,Antioquia"/>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre32">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre32"/>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:fundadoEl>17/agosto/1908</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:direccionEs>Carrera 12 N° 2 - 13</Colegio:direccionEs>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:generoEs>Femenino</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre44">
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:fundadoEl>25/enero/1938</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre44"/>
+    <Colegio:direccionEs>Carrera 47 N° 38 - 42</Colegio:direccionEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Santa_Marta,Magdalena"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre56">
+    <Colegio:direccionEs>Transversal 29 N° 12 - 34</Colegio:direccionEs>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:fundadoEl>12/octubre/2006</Colegio:fundadoEl>
+    <Colegio:profesaReligion>Cristiano-Evanngelico</Colegio:profesaReligion>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre56"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre100">
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>08/septiembre/1977</Colegio:fundadoEl>
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre100"/>
+    <Colegio:direccionEs>Avenida 5 N° 45 - 54</Colegio:direccionEs>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre68">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Chino</Colegio:imparteClaseEn>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:fundadoEl>04/agosto/1985</Colegio:fundadoEl>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:direccionEs>Avenida 14 N° 22 - 4</Colegio:direccionEs>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Popayan,Cauca"/>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre72">
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Eleanor_France_de_Alum"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Chia,Cundinamarca"/>
+    <Colegio:imparteClaseEn>Ingles</Colegio:imparteClaseEn>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:direccionEs>Transversal 14 N° 3 - 40</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre72"/>
+    <Colegio:fundadoEl>22/abril/1946</Colegio:fundadoEl>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre84">
+    <Colegio:generoEs>Masculino</Colegio:generoEs>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:imparteClaseEn>Ninguno</Colegio:imparteClaseEn>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:fundadoEl>09/septiembre/1971</Colegio:fundadoEl>
+    <Colegio:direccionEs>Avenida 16 N° 50 - 43</Colegio:direccionEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre84"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cartagena,Bolivar"/>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre96">
+    <Colegio:profesaReligion>Ninguna</Colegio:profesaReligion>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:tieneJornada>Nocturna</Colegio:tieneJornada>
+    <Colegio:direccionEs>Carrera 23 N° 36 - 12</Colegio:direccionEs>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:imparteClaseEn>Italiano</Colegio:imparteClaseEn>
+    <Colegio:fundadoEl>01/junio/1944</Colegio:fundadoEl>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre96"/>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Juan_Bautista_De_La_Salle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre20">
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:tieneJornada>Completa</Colegio:tieneJornada>
+    <Colegio:tieneCalendario>A</Colegio:tieneCalendario>
+    <Colegio:fundadoEl>11/abril/1974</Colegio:fundadoEl>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Bartolomé_Lobo_Guerrero"/>
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Cali,Valle_del_Cauca"/>
+    <Colegio:generoEs>Mixto</Colegio:generoEs>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre20"/>
+    <Colegio:direccionEs>Avenida 47 N° 24 - 46</Colegio:direccionEs>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.colegiosColombia.com/Informacion#Colegio_Nombre60">
+    <Colegio:estaEn rdf:resource="http://www.ciudadesColombia.com/Informacion#Barranquilla,Atlantico"/>
+    <Colegio:profesaReligion>Católica</Colegio:profesaReligion>
+    <Colegio:direccionEs>Diagonal 36 N° 14 - 45</Colegio:direccionEs>
+    <Colegio:generoEs>Masculino-Femenino</Colegio:generoEs>
+    <Colegio:tieneJornada>Tarde</Colegio:tieneJornada>
+    <Colegio:directorEs rdf:resource="http://www.colegiosColombia.com/Director#Nombre60"/>
+    <Colegio:fundadoEl>03/marzo/2011</Colegio:fundadoEl>
+    <Colegio:tieneCalendario>B</Colegio:tieneCalendario>
+    <Colegio:fundadoPor rdf:resource="http://www.colegiosColombia.com/Fundador#Rafael_Garcia_Herreros"/>
+    <Colegio:imparteClaseEn>Mandarín</Colegio:imparteClaseEn>
   </rdf:Description>
 </rdf:RDF>

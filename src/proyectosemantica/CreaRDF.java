@@ -9,6 +9,7 @@ import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.QueryFactory;
+import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
 import com.hp.hpl.jena.rdf.model.Model;
@@ -31,6 +32,7 @@ import java.util.Properties;
 import java.util.Calendar;
 import java.util.Random;
 import java.text.SimpleDateFormat;
+import java.util.Iterator;
 /**
  *
  * @author Lenovo
@@ -38,6 +40,7 @@ import java.text.SimpleDateFormat;
 public class CreaRDF {
    
     String inputFileName = System.getProperty("user.dir")+"/archivos/test_file.rdf" ;
+    String FileNameDataExp = System.getProperty("user.dir")+"/archivos/data_experiment.rdf" ;
     // create an empty model
     ArrayList<DatosTest> datos = new ArrayList<DatosTest>();
     ArrayList<DatosTest> datosQuery = new ArrayList<DatosTest>();
@@ -92,14 +95,6 @@ public class CreaRDF {
             for(int i=1 ; i<=experimentos ;i ++)
             {    
                 Model model = ModelFactory.createDefaultModel();
-            
-                InputStream in = FileManager.get().open( inputFileName );
-                if (in == null) {
-                throw new IllegalArgumentException(
-                "File: " + inputFileName + " not found");
-                }
-                FileWriter out = new FileWriter(inputFileName);
-
                 //create a property
                 Property estaEnProp = model.createProperty(prefix+estaEn);
                 Property direccionEsProp = model.createProperty(prefix+direccionEs);
@@ -113,6 +108,7 @@ public class CreaRDF {
                 Property tieneCalendarioProp = model.createProperty(prefix+tieneCalendario);
                 
                 carga = carga + 1 ;
+
                 for(int j=1; j<=carga; j++  ) {
                     
                     colegioURI = "http://www.colegiosColombia.com/Informacion#Colegio_Nombre" + j;
@@ -155,6 +151,13 @@ public class CreaRDF {
                                
                 DatosTest dato = new DatosTest();
                 DatosTest datoQuery = new DatosTest();
+                
+                InputStream in = FileManager.get().open( inputFileName );
+                if (in == null) {
+                throw new IllegalArgumentException(
+                "File: " + inputFileName + " not found");
+                }
+                FileWriter out = new FileWriter(inputFileName);
                 
                 TInicio = System.currentTimeMillis();
                 try {
