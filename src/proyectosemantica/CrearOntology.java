@@ -43,7 +43,7 @@ import java.util.logging.Logger;
  *
  * @author Lenovo
  */
-public class CrearOntlogy {
+public class CrearOntology {
     
     String inputFileName = System.getProperty("user.dir")+"/archivos/test_ontology.owl" ;
     String inputFileOrigin = System.getProperty("user.dir")+"/archivos/original.owl" ;
@@ -58,7 +58,6 @@ public class CrearOntlogy {
         int carga = 1;
         
           
-        
         for(int i=1 ; i<=experimentos ;i ++)
         {
                  this.iniciarArchvivo();
@@ -110,7 +109,7 @@ public class CrearOntlogy {
                     bw.write(this.cabeceraOWL ());
                     bw.close();
                 } catch (IOException ex) {
-                    Logger.getLogger(CrearOntlogy.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(CrearOntology.class.getName()).log(Level.SEVERE, null, ex);
                 }         
            } else {
            // El fichero no existe y hay que crearlo
@@ -120,7 +119,7 @@ public class CrearOntlogy {
                     bw.write(this.cabeceraOWL ());
                     bw.close();
                 } catch (IOException ex) {
-                    Logger.getLogger(CrearOntlogy.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(CrearOntology.class.getName()).log(Level.SEVERE, null, ex);
                 }
            }
            
