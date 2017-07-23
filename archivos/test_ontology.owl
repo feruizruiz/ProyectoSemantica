@@ -179,6 +179,9 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
     <!-- http://www.colegiosColombia/Informacion/Ontology#Antioquia -->
 
     <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Antioquia">
@@ -209,8 +212,27 @@
     <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Cali">
         <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Ciudad"/>
         <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Valle_del_Cauca"/>
-    </owl:NamedIndividual>    
+    </owl:NamedIndividual>
     
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre1">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
+        <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Nombre1"/>
+        <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+        <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+        <direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 43 # 3A -</direccionEs>
+        <fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12 / Octubre / 1923</fundadoEl>
+        <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+        <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inglés</imparteClaseEn>
+        <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+        <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+        <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+    </owl:NamedIndividual>
+    
+
 
     <!-- http://www.colegiosColombia/Informacion/Ontology#Medellin -->
 
@@ -221,9 +243,9 @@
     
 
 
-    <!-- http://www.colegiosColombia/Informacion/Ontology#Director1 -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Nombre1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director1">
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Nombre1">
         <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director"/>
     </owl:NamedIndividual>
     
@@ -250,13 +272,13 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre1">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director1"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 7 N° 21 - 14</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">07/junio/1970</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 12 N° 2 - 9</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/enero/1963</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
@@ -267,15 +289,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre2">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director2"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 16 N° 47 - 14</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/abril/1923</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 49 N° 33 - 7</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/octubre/2000</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director3">
@@ -284,15 +306,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre3">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director3"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 26 N° 50 - 47</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28/enero/1903</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 48 N° 19 - 50</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03/octubre/1918</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director4">
@@ -303,13 +325,13 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director4"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 14 N° 55 - 38</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/enero/1925</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 29 N° 15 - 48</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/mayo/2004</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director5">
@@ -318,15 +340,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre5">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director5"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 51 N° 26 - 11</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10/junio/1981</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 14 N° 48 - 22</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17/diciembre/1911</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director6">
@@ -335,15 +357,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre6">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director6"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 9 N° 45 - 15</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/marzo/2001</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 42 N° 18 - 55</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/enero/1988</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director7">
@@ -352,15 +374,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre7">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director7"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 33 N° 38 - 18</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/septiembre/1948</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 4 N° 37 - 20</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21/mayo/2002</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director8">
@@ -369,15 +391,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre8">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director8"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 44 N° 2 - 20</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/marzo/1982</fundadoEl>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 10 N° 8 - 35</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/septiembre/1973</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director9">
@@ -386,15 +408,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre9">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director9"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 39 N° 40 - 3</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/septiembre/1944</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 3 N° 41 - 29</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/febrero/2010</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director10">
@@ -403,13 +425,13 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre10">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director10"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 20 N° 31 - 41</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/febrero/1945</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 7 N° 8 - 16</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/mayo/1980</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
@@ -420,15 +442,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre11">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director11"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 30 N° 34 - 39</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/octubre/1904</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 2 N° 22 - 55</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/noviembre/1914</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director12">
@@ -437,15 +459,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre12">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director12"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 43 N° 10 - 19</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27/diciembre/1916</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 37 N° 53 - 10</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/octubre/2010</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director13">
@@ -456,11 +478,11 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director13"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 8 N° 29 - 47</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/mayo/1917</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 11 N° 9 - 50</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03/octubre/1923</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
@@ -471,15 +493,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre14">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director14"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 34 N° 15 - 41</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/julio/1960</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 21 N° 36 - 53</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/diciembre/1920</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director15">
@@ -488,12 +510,12 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre15">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director15"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 38 N° 27 - 30</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">06/noviembre/1907</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 41 N° 54 - 38</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/abril/2013</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
@@ -506,13 +528,13 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director16"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 27 N° 44 - 44</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22/julio/1933</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 30 N° 18 - 40</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/agosto/1949</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
@@ -523,14 +545,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director17"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 47 N° 25 - 25</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/febrero/1998</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 6 N° 6 - 55</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10/agosto/1918</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director18">
@@ -540,14 +562,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director18"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 34 N° 23 - 9</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/noviembre/1996</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 17 N° 31 - 9</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/julio/1914</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director19">
@@ -556,15 +578,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre19">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director19"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 19 N° 50 - 24</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/agosto/2009</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 38 N° 17 - 16</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17/enero/1925</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director20">
@@ -573,14 +595,14 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre20">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director20"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 54 N° 25 - 29</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03/diciembre/1996</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 36 N° 32 - 33</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/noviembre/2013</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
@@ -590,15 +612,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre21">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director21"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 6 N° 50 - 9</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/enero/2011</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 32 N° 41 - 46</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27/noviembre/1904</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director22">
@@ -607,15 +629,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre22">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director22"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 54 N° 51 - 10</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/octubre/1931</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 5 N° 55 - 8</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/abril/1965</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director23">
@@ -624,13 +646,13 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre23">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director23"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 18 N° 3 - 4</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/junio/1965</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 36 N° 1 - 33</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/febrero/1966</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
@@ -643,12 +665,12 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director24"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 30 N° 47 - 49</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/abril/1987</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 49 N° 44 - 35</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/abril/1936</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
@@ -658,15 +680,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre25">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director25"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 40 N° 14 - 31</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/abril/1939</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 44 N° 38 - 26</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21/noviembre/1924</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director26">
@@ -675,15 +697,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre26">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director26"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 37 N° 2 - 26</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05/octubre/2010</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 33 N° 1 - 11</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/septiembre/2007</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director27">
@@ -692,15 +714,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre27">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director27"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 41 N° 44 - 30</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/diciembre/1971</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 19 N° 5 - 10</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/julio/1987</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director28">
@@ -709,15 +731,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre28">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director28"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 54 N° 26 - 49</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/octubre/1901</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 9 N° 17 - 51</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/abril/1959</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director29">
@@ -726,15 +748,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre29">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director29"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 7 N° 22 - 17</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/marzo/1914</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 26 N° 3 - 25</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/septiembre/1996</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director30">
@@ -743,15 +765,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre30">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director30"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 18 N° 14 - 45</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/noviembre/1938</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 52 N° 55 - 44</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/agosto/2001</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director31">
@@ -760,15 +782,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre31">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director31"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 18 N° 8 - 28</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/julio/1995</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 9 N° 17 - 30</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/agosto/1940</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director32">
@@ -777,15 +799,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre32">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director32"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 15 N° 31 - 16</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/junio/1919</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 31 N° 19 - 43</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/noviembre/1991</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director33">
@@ -796,13 +818,13 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director33"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 41 N° 4 - 26</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/diciembre/1974</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 26 N° 51 - 43</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/marzo/1963</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director34">
@@ -813,13 +835,13 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director34"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 15 N° 39 - 25</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/marzo/1958</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 46 N° 7 - 45</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/enero/1956</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director35">
@@ -828,13 +850,13 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre35">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director35"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 24 N° 17 - 16</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22/abril/1908</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 39 N° 50 - 10</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/junio/1925</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
@@ -845,15 +867,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre36">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director36"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 14 N° 5 - 34</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05/diciembre/1990</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 5 N° 46 - 46</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28/julio/1908</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director37">
@@ -862,15 +884,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre37">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director37"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 13 N° 9 - 38</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/enero/1929</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 19 N° 45 - 24</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/octubre/1939</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director38">
@@ -879,15 +901,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre38">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director38"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 12 N° 54 - 52</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15/junio/2012</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 35 N° 12 - 49</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/abril/1934</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director39">
@@ -897,14 +919,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director39"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 21 N° 16 - 52</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/enero/2007</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 55 N° 24 - 36</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/julio/1924</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director40">
@@ -913,15 +935,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre40">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director40"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 28 N° 12 - 10</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/diciembre/2001</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 43 N° 33 - 41</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22/agosto/2001</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director41">
@@ -931,14 +953,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director41"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 27 N° 48 - 12</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/diciembre/1933</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 10 N° 34 - 31</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17/octubre/1986</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director42">
@@ -947,15 +969,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre42">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director42"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 7 N° 8 - 39</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15/septiembre/1996</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 37 N° 52 - 2</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/abril/1940</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director43">
@@ -965,12 +987,12 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director43"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 3 N° 4 - 31</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14/julio/1954</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 55 N° 11 - 34</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27/octubre/1950</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
@@ -982,12 +1004,12 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director44"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 3 N° 11 - 52</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/julio/1997</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 37 N° 50 - 23</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/febrero/1901</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
@@ -998,15 +1020,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre45">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director45"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 4 N° 32 - 46</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28/enero/1910</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 3 N° 42 - 39</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">06/enero/1976</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director46">
@@ -1015,15 +1037,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre46">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director46"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 34 N° 16 - 52</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/junio/1967</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 33 N° 47 - 12</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03/junio/1960</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director47">
@@ -1032,15 +1054,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre47">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director47"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 34 N° 42 - 28</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/noviembre/1978</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 10 N° 9 - 6</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/febrero/1901</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director48">
@@ -1049,15 +1071,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre48">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director48"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 49 N° 30 - 42</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">07/marzo/1912</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 9 N° 7 - 44</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/noviembre/1912</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director49">
@@ -1066,15 +1088,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre49">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director49"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 28 N° 16 - 52</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21/enero/2000</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 54 N° 9 - 20</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/mayo/1945</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director50">
@@ -1084,14 +1106,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director50"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 4 N° 4 - 33</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15/abril/1904</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 33 N° 50 - 26</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/mayo/2012</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director51">
@@ -1101,13 +1123,13 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director51"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 34 N° 37 - 28</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10/julio/2007</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 28 N° 16 - 53</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">06/noviembre/1945</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1119,13 +1141,13 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director52"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 17 N° 37 - 17</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/septiembre/2000</fundadoEl>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 22 N° 36 - 4</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15/febrero/2001</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director53">
@@ -1134,15 +1156,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre53">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director53"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 10 N° 7 - 10</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22/noviembre/1998</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 32 N° 17 - 37</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/junio/1926</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director54">
@@ -1151,15 +1173,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre54">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director54"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 52 N° 22 - 17</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/octubre/1942</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 35 N° 28 - 28</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18/marzo/1970</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director55">
@@ -1170,13 +1192,13 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director55"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 43 N° 54 - 24</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17/enero/1930</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 55 N° 41 - 2</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/septiembre/1939</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director56">
@@ -1186,14 +1208,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director56"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 26 N° 23 - 36</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/mayo/1919</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 16 N° 29 - 11</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21/septiembre/1994</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director57">
@@ -1202,15 +1224,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre57">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director57"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 18 N° 10 - 46</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27/enero/2010</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 49 N° 33 - 44</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/junio/1978</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director58">
@@ -1220,13 +1242,13 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director58"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 5 N° 2 - 10</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21/abril/1930</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 40 N° 1 - 50</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/julio/1935</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1236,15 +1258,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre59">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director59"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 30 N° 38 - 33</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/mayo/1995</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 8 N° 44 - 45</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/diciembre/1915</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director60">
@@ -1253,15 +1275,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre60">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director60"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 10 N° 51 - 49</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/noviembre/1967</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 6 N° 14 - 47</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/septiembre/1987</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director61">
@@ -1270,14 +1292,14 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre61">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director61"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 30 N° 51 - 31</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14/noviembre/1948</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 29 N° 34 - 12</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/junio/1996</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1287,15 +1309,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre62">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director62"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 50 N° 6 - 36</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/marzo/2003</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 44 N° 17 - 5</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05/junio/1983</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director63">
@@ -1305,12 +1327,12 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director63"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 51 N° 30 - 43</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/octubre/1967</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 35 N° 55 - 10</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">13/septiembre/1996</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
@@ -1322,14 +1344,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director64"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 49 N° 3 - 46</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27/junio/1988</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 37 N° 55 - 23</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/junio/1927</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director65">
@@ -1338,15 +1360,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre65">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director65"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 20 N° 38 - 26</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/enero/1972</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 50 N° 16 - 5</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/octubre/1976</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director66">
@@ -1356,14 +1378,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director66"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 29 N° 37 - 43</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22/marzo/1916</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 26 N° 29 - 12</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28/mayo/2003</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director67">
@@ -1372,15 +1394,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre67">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director67"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 40 N° 26 - 11</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/agosto/1981</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 45 N° 21 - 31</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/mayo/1900</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director68">
@@ -1389,15 +1411,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre68">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director68"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 22 N° 10 - 51</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/noviembre/1958</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 27 N° 44 - 40</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/abril/1942</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director69">
@@ -1406,15 +1428,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre69">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director69"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 43 N° 15 - 40</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">13/marzo/1915</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 53 N° 50 - 16</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18/enero/1996</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director70">
@@ -1423,15 +1445,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre70">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director70"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 37 N° 53 - 52</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03/marzo/1949</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 17 N° 38 - 11</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17/noviembre/1945</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director71">
@@ -1440,15 +1462,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre71">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director71"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 12 N° 23 - 45</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/octubre/2015</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 47 N° 18 - 54</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28/febrero/1980</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director72">
@@ -1457,14 +1479,14 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre72">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director72"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 16 N° 2 - 49</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22/mayo/1993</fundadoEl>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 13 N° 54 - 30</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17/mayo/1945</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1474,15 +1496,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre73">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director73"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 52 N° 46 - 18</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/julio/2013</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 47 N° 36 - 49</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/marzo/1913</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director74">
@@ -1492,13 +1514,13 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director74"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 46 N° 24 - 48</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">28/octubre/1907</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 19 N° 3 - 55</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/septiembre/1919</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1508,15 +1530,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre75">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director75"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 8 N° 19 - 41</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18/agosto/1980</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 9 N° 37 - 27</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15/mayo/1997</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director76">
@@ -1526,13 +1548,13 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director76"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 4 N° 14 - 14</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/febrero/1917</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 29 N° 9 - 49</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">11/mayo/2006</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1543,13 +1565,13 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director77"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 10 N° 12 - 18</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/agosto/1926</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 2 N° 15 - 48</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18/febrero/1900</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1559,15 +1581,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre78">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director78"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 21 N° 48 - 50</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/octubre/1956</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 44 N° 47 - 17</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/diciembre/2015</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director79">
@@ -1576,14 +1598,14 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre79">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director79"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 48 N° 30 - 32</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/agosto/1973</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 46 N° 30 - 43</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14/julio/1978</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1594,14 +1616,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director80"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 53 N° 29 - 25</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/marzo/1977</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 33 N° 32 - 12</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/agosto/1997</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director81">
@@ -1610,15 +1632,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre81">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director81"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 31 N° 38 - 43</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/agosto/1943</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 20 N° 42 - 53</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05/noviembre/1968</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director82">
@@ -1628,12 +1650,12 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director82"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 25 N° 27 - 37</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/abril/1977</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 52 N° 55 - 43</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">25/julio/1954</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
@@ -1644,15 +1666,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre83">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director83"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 14 N° 6 - 33</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/agosto/1986</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 2 N° 45 - 33</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21/diciembre/1961</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director84">
@@ -1661,15 +1683,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre84">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director84"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 41 N° 3 - 30</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/febrero/1900</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 39 N° 46 - 9</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/enero/1943</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director85">
@@ -1680,13 +1702,13 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director85"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 43 N° 37 - 20</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14/mayo/1947</fundadoEl>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 40 N° 24 - 20</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">13/marzo/1974</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director86">
@@ -1695,13 +1717,13 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre86">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director86"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 38 N° 50 - 20</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19/agosto/1996</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 50 N° 32 - 15</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10/marzo/1904</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguno</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
@@ -1712,15 +1734,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre87">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director87"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 4 N° 43 - 33</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27/diciembre/1989</fundadoEl>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 19 N° 50 - 5</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/marzo/1979</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director88">
@@ -1729,15 +1751,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre88">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director88"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 21 N° 32 - 47</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">27/octubre/1937</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 15 N° 42 - 14</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">21/octubre/1915</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
 <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director89">
@@ -1747,14 +1769,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director89"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 4 N° 34 - 33</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14/febrero/1980</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 29 N° 53 - 23</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">13/junio/1991</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director90">
@@ -1764,14 +1786,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director90"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 18 N° 47 - 47</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/abril/1960</fundadoEl>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 46 N° 33 - 33</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/septiembre/1925</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director91">
@@ -1780,14 +1802,14 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre91">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director91"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 43 N° 20 - 20</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/julio/1968</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 19 N° 15 - 5</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/septiembre/1970</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1797,15 +1819,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre92">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director92"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 41 N° 20 - 38</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/abril/1931</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 21 N° 33 - 33</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">26/septiembre/1921</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugués</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director93">
@@ -1814,14 +1836,14 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre93">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director93"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 29 N° 26 - 55</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15/septiembre/1938</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 8 N° 49 - 44</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">13/noviembre/1905</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1832,14 +1854,14 @@
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director94"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenida 22 N° 49 - 15</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">06/abril/1980</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italiano</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 5 N° 52 - 55</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">14/enero/1972</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director95">
@@ -1848,15 +1870,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre95">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director95"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 1 N° 25 - 10</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">09/octubre/1949</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 13 N° 12 - 45</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/noviembre/1931</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femenino</generoEs>
 <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director96">
@@ -1865,15 +1887,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre96">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director96"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 20 N° 27 - 22</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20/octubre/1938</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 36 N° 23 - 44</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">08/noviembre/1978</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director97">
@@ -1882,15 +1904,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre97">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director97"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transversal 15 N° 18 - 17</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04/enero/1995</fundadoEl>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagonal 54 N° 35 - 46</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/noviembre/1908</fundadoEl>
 <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director98">
@@ -1899,14 +1921,14 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre98">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director98"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 6 N° 3 - 11</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">17/febrero/1992</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarín</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
-<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bartolomé_Lobo_Guerrero"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 39 N° 53 - 38</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16/febrero/1931</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
 <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
@@ -1916,15 +1938,15 @@
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre99">
 <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director99"/>
-<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Medellin"/>
-<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Eleanor_France_de_Alum"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autopista 35 N° 10 - 14</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">02/febrero/1950</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+<estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+<fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Juan_Bautista_De_La_Salle"/>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 1 N° 19 - 41</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01/abril/1955</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixto</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingles</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninguna</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mañana</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director100">
@@ -1935,13 +1957,13 @@
 <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director100"/>
 <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Cali"/>
 <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
-<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrera 47 N° 51 - 19</direccionEs>
-<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">23/junio/2006</fundadoEl>
-<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
-<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chino</imparteClaseEn>
-<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristiano-Evangelica</profesaReligion>
+<direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 34 N° 45 - 53</direccionEs>
+<fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">03/abril/1938</fundadoEl>
+<generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino-Femenino</generoEs>
+<imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frances</imparteClaseEn>
+<profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
 <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">B</tieneCalendario>
-<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarde</tieneJornada>
+<tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturna</tieneJornada>
 </owl:NamedIndividual> </rdf:RDF>
 
 

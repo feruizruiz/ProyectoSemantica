@@ -52,7 +52,6 @@ public class CrearOntology {
     
     String inputFileName = System.getProperty("user.dir")+"/archivos/test_ontology.owl" ;
     String inputFileOrigin = System.getProperty("user.dir")+"/archivos/original.owl" ;
-
     String []ciudadColombia = {"Bogotá","Medellin","Cali"};
     String [] fundadores = {"Rafael_Garcia_Herreros","Bartolomé_Lobo_Guerrero","Eleanor_France_de_Alum","Juan_Bautista_De_La_Salle"};
     //String [] directorActual = {"Diego Fernando Sanchez","Martha Isabela Franco",""};
@@ -79,7 +78,7 @@ public class CrearOntology {
         /////////Consulta//////////// 
             // create query string
             String queryString = "PREFIX Colegio: <" + prefix + ">\n";
-            queryString += "SELECT ?colegio ?ciudad ?direccion ?fundador ?fundado ?director ?religion ?idiomaExtr ?jornada ?genero ?calendario "+"\n";
+            queryString += "SELECT DISTINCT ?colegio ?ciudad ?direccion ?fundador ?fundado ?director ?religion ?idiomaExtr ?jornada ?genero ?calendario "+"\n";
             queryString += "WHERE {?colegio Colegio:estaEn ?ciudad. \n"
                                 + "?colegio Colegio:direccionEs ?direccion. \n"
                                 + "?colegio Colegio:fundadoPor ?fundador. \n"
@@ -137,8 +136,7 @@ public class CrearOntology {
             DatosTest dato = new DatosTest();
             DatosTest datoQuery = new DatosTest();
             
-            TInicio = System.currentTimeMillis();
-
+            TInicio = System.currentTimeMillis();        
             Path path = Paths.get(inputFileName) ;
             Charset charset = StandardCharsets.UTF_8;  
 
@@ -194,8 +192,7 @@ public class CrearOntology {
     }
      
     public void iniciarArchivo() 
-    {
-    
+    {    
         String ruta = inputFileName;
         File archivo = new File(ruta);
         BufferedWriter bw;
@@ -218,8 +215,8 @@ public class CrearOntology {
             } catch (IOException ex) {
                 Logger.getLogger(CrearOntology.class.getName()).log(Level.SEVERE, null, ex);
             }
-        }    
-    }  
+        }                   
+    } 
     
     public String cabeceraOWL () throws FileNotFoundException, IOException 
     {
@@ -232,6 +229,5 @@ public class CrearOntology {
         }
         b.close();
         return xml;
-    }
-     
+    }       
 }

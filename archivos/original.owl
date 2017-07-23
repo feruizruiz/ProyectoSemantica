@@ -179,6 +179,9 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
     <!-- http://www.colegiosColombia/Informacion/Ontology#Antioquia -->
 
     <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Antioquia">
@@ -209,8 +212,27 @@
     <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Cali">
         <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Ciudad"/>
         <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Valle_del_Cauca"/>
-    </owl:NamedIndividual>    
+    </owl:NamedIndividual>
     
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre1">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
+        <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Nombre1"/>
+        <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+        <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+        <direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 43 # 3A -</direccionEs>
+        <fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12 / Octubre / 1923</fundadoEl>
+        <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+        <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inglés</imparteClaseEn>
+        <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+        <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+        <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+    </owl:NamedIndividual>
+    
+
 
     <!-- http://www.colegiosColombia/Informacion/Ontology#Medellin -->
 
@@ -221,9 +243,9 @@
     
 
 
-    <!-- http://www.colegiosColombia/Informacion/Ontology#Director1 -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Nombre1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director1">
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Nombre1">
         <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director"/>
     </owl:NamedIndividual>
     

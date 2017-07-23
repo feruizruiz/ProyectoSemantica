@@ -3,11 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/D:/Documents/Semantica%20Web/ProyectoSemantica/src/proyectosemantica/ProyectoSemantica.java</file>
             <file>file:/D:/Documents/Semantica%20Web/ProyectoSemantica/src/proyectosemantica/LinearChart.java</file>
             <file>file:/D:/Documents/Semantica%20Web/ProyectoSemantica/src/proyectosemantica/CreaRDF.java</file>
             <file>file:/D:/Documents/Semantica%20Web/ProyectoSemantica/src/proyectosemantica/CrearOntology.java</file>
             <file>file:/D:/Documents/Semantica%20Web/ProyectoSemantica/src/proyectosemantica/DatosTest.java</file>
+=======
+            <file>file:/C:/Users/Lenovo/Documents/NetBeansProjects/ProyectoSemantica/src/proyectosemantica/CrearOntology.java</file>
+            <file>file:/C:/Users/Lenovo/Documents/NetBeansProjects/ProyectoSemantica/src/proyectosemantica/CreaRDF.java</file>
+            <file>file:/C:/Users/Lenovo/Documents/NetBeansProjects/ProyectoSemantica/src/proyectosemantica/ProyectoSemantica.java</file>
+>>>>>>> origin/master
         </group>
     </open-files>
 </project-private>

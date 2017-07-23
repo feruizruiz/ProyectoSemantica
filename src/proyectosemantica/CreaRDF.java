@@ -79,7 +79,7 @@ public class CreaRDF {
             /////////Consulta//////////// 
             // create query string
             String queryString = "PREFIX Colegio: <"+ prefix + ">\n";
-            queryString += "SELECT ?colegio ?ciudad ?direccion ?fundador ?fundado ?director ?religion ?idiomaExtr ?jornada ?genero ?calendario "+"\n";
+            queryString += "SELECT DISTINCT ?colegio ?ciudad ?direccion ?fundador ?fundado ?director ?religion ?idiomaExtr ?jornada ?genero ?calendario "+"\n";
             queryString += "WHERE {?colegio Colegio:estaEn ?ciudad. \n"
                                 + "?colegio Colegio:direccionEs ?direccion. \n"
                                 + "?colegio Colegio:fundadoPor ?fundador. \n"
@@ -108,7 +108,7 @@ public class CreaRDF {
                 Property tieneCalendarioProp = model.createProperty(prefix+tieneCalendario);
                 
                 carga = carga + 1 ;
-                for(int j=1; j<=carga; j++) {
+                for(int j=1; j<=carga; j++  ) {
                     
                     colegioURI = "http://www.colegiosColombia.com/Informacion#Colegio_Nombre" + j;
                     String ciudad = ciudadColombia[aleatorio.nextInt(ciudadColombia.length)];
