@@ -22,6 +22,7 @@ import java.io.File;
 import java.io.InputStream;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.shared.ReificationStyle;
 import com.hp.hpl.jena.util.FileManager;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -172,6 +173,8 @@ public class CreaRDF {
                     
                 TInicioQuery = System.currentTimeMillis();
                 Model modeloQuery = ModelFactory.createRDFSModel(model);
+                /*Model modeloQuery = ModelFactory.createDefaultModel(ReificationStyle.Standard);
+                modeloQuery.read(inputFileName, "RDF/XML");*/
                 // create ARQ query
                 Query query = QueryFactory.create(queryString);
                 // execute query
