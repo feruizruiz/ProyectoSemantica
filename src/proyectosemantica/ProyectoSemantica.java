@@ -6,6 +6,7 @@
 package proyectosemantica;
 
 import java.io.IOException;
+import org.jfree.ui.RefineryUtilities;
 
 /**
  *
@@ -28,19 +29,23 @@ public class ProyectoSemantica {
        CrearOntology ont =  new CrearOntology(); 
        ont.crear(nExperimentos);
     
-        // cargue de una grafica  :  
+      // cargue de una grafica  :  
       LinearChart chartLoad = new LinearChart("TiempoCarga" );
+      //rdf.datos.remove(0);
+      //ont.datos.remove(0);
       chartLoad.datosRDF = rdf.datos;
       chartLoad.datosOWL = ont.datos;
       
+       
       chartLoad.GenerarLinearChart( "TiempoCarga","Tiempo de Carga");
-
       chartLoad.pack( );
+       RefineryUtilities.centerFrameOnScreen( chartLoad);
       chartLoad.setVisible( true );
       
       LinearChart chartQuery = new LinearChart("TiempoQuery");
+      //rdf.datosQuery.remove(0);
       chartQuery.datosRDF = rdf.datosQuery;
-      chartQuery.datosOWL = ont.datos;
+      chartQuery.datosOWL = ont.datosQuery;
       
       chartQuery.GenerarLinearChart( "TiempoQuery","Tiempo Respuesta Query");
 

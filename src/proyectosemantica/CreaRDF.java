@@ -90,7 +90,7 @@ public class CreaRDF {
                                 + "?colegio Colegio:tieneJornada ?jornada. \n"
                                 + "?colegio Colegio:generoEs ?genero. \n"
                                 + "?colegio Colegio:tieneCalendario ?calendario. \n"
-                    + "}";
+                                + "}";
             
             for(int i=1 ; i<=experimentos ;i ++)
             {    
@@ -108,8 +108,7 @@ public class CreaRDF {
                 Property tieneCalendarioProp = model.createProperty(prefix+tieneCalendario);
                 
                 carga = carga + 1 ;
-
-                for(int j=1; j<=carga; j++  ) {
+                for(int j=1; j<=carga; j++) {
                     
                     colegioURI = "http://www.colegiosColombia.com/Informacion#Colegio_Nombre" + j;
                     String ciudad = ciudadColombia[aleatorio.nextInt(ciudadColombia.length)];
@@ -171,13 +170,13 @@ public class CreaRDF {
                     catch (IOException closeException) {
                     // ignore
                     }
-                }
-                TFin = System.currentTimeMillis(); 
-                    
+                }                   
+                // create an empty model
+                Model modeloQuery = ModelFactory.createDefaultModel();
+                // read the RDF/XML file
+                modeloQuery.read(in, null);
+                TFin = System.currentTimeMillis();  
                 TInicioQuery = System.currentTimeMillis();
-                Model modeloQuery = ModelFactory.createRDFSModel(model);
-                /*Model modeloQuery = ModelFactory.createDefaultModel(ReificationStyle.Standard);
-                modeloQuery.read(inputFileName, "RDF/XML");*/
                 // create ARQ query
                 Query query = QueryFactory.create(queryString);
                 // execute query
@@ -186,23 +185,24 @@ public class CreaRDF {
                 ResultSet results = qe.execSelect();
                 // print results nicely                     
                 TFinQuery = System.currentTimeMillis();
-                if(i==experimentos)
-                    System.out.println(ResultSetFormatter.asText(results));
                 
-                tiempo = TFin - TInicio; //Calculamos los milisegundos de diferencia
-                tiempoQuery = TFinQuery - TInicioQuery;  //Calculamos los milisegundos de diferencia
+                tiempo = TFin - TInicio; //Calculamos los milisegundos de diferencia (Carga)
+                tiempoQuery = TFinQuery - TInicioQuery;  //Calculamos los milisegundos de diferencia (Query)
+                
                 dato.setCarga(carga);
                 dato.setExperimento(i);
                 dato.setTiempo(tiempo); 
+                datos.add(dato);
                 
                 datoQuery.setCarga(carga);
                 datoQuery.setExperimento(i);
-                datoQuery.setTiempo(tiempoQuery);
-                
-                datos.add(dato);
+                datoQuery.setTiempo(tiempoQuery);         
                 datosQuery.add(datoQuery);
+                
                 System.out.println("Experimento RDF(Carga) "+i+" Carga "+carga+" tiempo "+ tiempo); //Mostramos en pantalla el tiempo de ejecución en milisegundos
                 System.out.println("Experimento RDF(Query) "+i+" Carga "+carga+" tiempo "+ tiempoQuery); //Mostramos en pantalla el tiempo de ejecución en milisegundos
+                if(i==experimentos)
+                    System.out.println(ResultSetFormatter.asText(results));
             }
             // writing RDF
             // write the model in XML form
