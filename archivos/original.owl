@@ -1,12 +1,63 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#"
-     xml:base="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12"
+<rdf:RDF xmlns="http://www.colegiosColombia/Informacion/Ontology#"
+     xml:base="http://www.colegiosColombia/Informacion/Ontology"
+     xmlns:Ontology="http://www.colegiosColombia/Informacion/Ontology#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12"/>
+    <owl:Ontology rdf:about="http://www.colegiosColombia/Informacion/Ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#directorEs -->
+
+    <owl:ObjectProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#directorEs">
+        <owl:inverseOf rdf:resource="http://www.colegiosColombia/Informacion/Ontology#esDirectorDe"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#esDirectorDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#esDirectorDe"/>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#estaEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#estaEn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#fundadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#fundadoPor">
+        <owl:inverseOf rdf:resource="http://www.colegiosColombia/Informacion/Ontology#fundadorDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#fundadorDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#fundadorDe"/>
     
 
 
@@ -21,9 +72,51 @@
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#worksAt -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#direccionEs -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#worksAt"/>
+    <owl:DatatypeProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#direccionEs">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#fundadoEl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#fundadoEl">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#generoEs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#generoEs"/>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#imparteClaseEn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#imparteClaseEn"/>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#profesaReligion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#profesaReligion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#tieneCalendario -->
+
+    <owl:DatatypeProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#tieneCalendario"/>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#tieneJornada -->
+
+    <owl:DatatypeProperty rdf:about="http://www.colegiosColombia/Informacion/Ontology#tieneJornada"/>
     
 
 
@@ -38,62 +131,43 @@
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Company -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Ciudad -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Company"/>
+    <owl:Class rdf:about="http://www.colegiosColombia/Informacion/Ontology#Ciudad"/>
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Female -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Colegio -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Female">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Male"/>
+    <owl:Class rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Departamento -->
+
+    <owl:Class rdf:about="http://www.colegiosColombia/Informacion/Ontology#Departamento"/>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Director -->
+
+    <owl:Class rdf:about="http://www.colegiosColombia/Informacion/Ontology#Director">
+        <rdfs:subClassOf rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Persona"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Fundador -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender"/>
-    
-
-
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Male -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Male">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Gender"/>
+    <owl:Class rdf:about="http://www.colegiosColombia/Informacion/Ontology#Fundador">
+        <rdfs:subClassOf rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Persona"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Persona -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#listOfPeople"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Student -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Worker -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Worker">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#listOfPeople -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#listOfPeople"/>
+    <owl:Class rdf:about="http://www.colegiosColombia/Informacion/Ontology#Persona"/>
     
 
 
@@ -108,34 +182,87 @@
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Apple -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Antioquia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Apple">
-        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Company"/>
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Antioquia">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Departamento"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Jhon -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Bogotá -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Jhon">
-        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Person"/>
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Bogotá">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Ciudad"/>
+        <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá_DC"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Martha -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Bogotá_DC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Martha">
-        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Student"/>
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Bogotá_DC">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Departamento"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Terry -->
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Cali -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Terry">
-        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-12#Worker"/>
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Cali">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Ciudad"/>
+        <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Valle_del_Cauca"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Colegio_Nombre1">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Colegio"/>
+        <directorEs rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Nombre1"/>
+        <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Bogotá"/>
+        <fundadoPor rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros"/>
+        <direccionEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle 43 # 3A -</direccionEs>
+        <fundadoEl rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12 / Octubre / 1923</fundadoEl>
+        <generoEs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masculino</generoEs>
+        <imparteClaseEn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inglés</imparteClaseEn>
+        <profesaReligion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Católica</profesaReligion>
+        <tieneCalendario rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A</tieneCalendario>
+        <tieneJornada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completa</tieneJornada>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Medellin -->
+
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Medellin">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Ciudad"/>
+        <estaEn rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Antioquia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Nombre1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Nombre1">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros -->
+
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Rafael_Garcia_Herreros">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Fundador"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.colegiosColombia/Informacion/Ontology#Valle_del_Cauca -->
+
+    <owl:NamedIndividual rdf:about="http://www.colegiosColombia/Informacion/Ontology#Valle_del_Cauca">
+        <rdf:type rdf:resource="http://www.colegiosColombia/Informacion/Ontology#Departamento"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
